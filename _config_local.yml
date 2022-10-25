@@ -1,0 +1,14 @@
+title: "Y-Foundry Wiki"
+logo: "/assets/images/horizontal_logo_orange-white.png"
+color_scheme: yfd
+
+# Local Setting
+baseurl: ""
+url: ""
+
+# Theme
+theme: "just-the-docs"
+#remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+
+plugins:
+  - jekyll-default-layout

@@ -1,2 +1,5 @@
 # local site builds for testing
 _site/
+.jekyll_cache/
+Gemfile.lock
+.sass-cache/
