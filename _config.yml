@@ -3,6 +3,23 @@ logo: "/assets/images/horizontal_logo_orange-white.png"
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: yfd
 
+# Aux links for the upper right navigation
+aux_links:
+  "Medium":
+    - "//medium.com/@yfoundry/"
+  "Discord":
+    - "//discord.gg/yfd"
+  "Twitter": 
+    - "//twitter.com/YFoundryDAO"
+  "Telegram":
+    - "//t.me/yfoundrydao"
+  "Github":
+    - "//github.com/Y-Foundry-DAO/"
+  "Website":
+    - "//yfoundry.io/"
+
+aux_links_new_tab: true
+
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -10,12 +27,11 @@ color_scheme: yfd
 #back_to_top: true
 #back_to_top_text: "Back to top"
 
-footer_content: "No Rights Reserved."
+footer_content: ""
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link

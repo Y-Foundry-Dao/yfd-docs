@@ -12,6 +12,23 @@ url: ""
 theme: "just-the-docs"
 #remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 
+# Aux links for the upper right navigation
+aux_links:
+  "Medium":
+    - "//medium.com/@yfoundry/"
+  "Discord":
+    - "//discord.gg/yfd"
+  "Twitter": 
+    - "//twitter.com/YFoundryDAO"
+  "Telegram":
+    - "//t.me/yfoundrydao"
+  "Github":
+    - "//github.com/Y-Foundry-DAO/"
+  "Website":
+    - "//yfoundry.io/"
+
+aux_links_new_tab: true
+
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -19,7 +36,7 @@ theme: "just-the-docs"
 #back_to_top: true
 #back_to_top_text: "Back to top"
 
-footer_content: "No Rights Reserved."
+footer_content: ""
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter

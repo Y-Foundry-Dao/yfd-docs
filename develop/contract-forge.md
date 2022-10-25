@@ -2,6 +2,7 @@
 layout: default
 title: Forge
 parent: Contracts
+grand_parent: Develop
 has_children: false
 nav_order: 1
 ---

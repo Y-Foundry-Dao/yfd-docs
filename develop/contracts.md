@@ -2,8 +2,8 @@
 layout: default
 title: Contracts
 nav_order: 3
+parent: Develop
 has_children: true
-permalink: /contracts
 ---
 
 # Contracts
