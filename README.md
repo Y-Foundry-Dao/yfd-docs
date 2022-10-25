@@ -1,3 +1,9 @@
+---
+title: Welcome
+has_children: false
+nav_order: 1
+---
+
 # Welcome to Y-Foundry DAO Docs
 
 Y-Foundry Wiki
