@@ -21,13 +21,15 @@ then:
 
 ### From the ```yfd-wiki``` directory
 ```bundle install```
+
 ```bundle exec jekyll serve --config _config_local.yml```
 
 
 ## For Reference
 
 ### Gemfile Contents 
-```# frozen_string_literal: true
+```
+# frozen_string_literal: true
 
 source "https://rubygems.org"
 
@@ -37,4 +39,5 @@ gem "github-pages"
 gem "just-the-docs", "0.4.0.rc3"
 gem "jekyll-seo-tag"
 gem "webrick"
-gem "jekyll-default-layout"```
+gem "jekyll-default-layout"
+```
