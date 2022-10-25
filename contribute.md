@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Contribute
-parent: Getting Started
-nav_order: 1
+nav_order: 9
 has_children: false
 ---
 
@@ -33,10 +32,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-## Jekyll / Blog related Variables and Links
+### Additional Resources
+[Jekyll Variables](https://jekyllrb.com/docs/variables/)
 
-https://jekyllrb.com/docs/variables/
-
-## Markdown / Styling Guide
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)

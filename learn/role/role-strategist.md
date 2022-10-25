@@ -9,4 +9,4 @@ has_children: false
 
 # About The Strategist
 
-<img src="/assets/images/learn/role/strategist.png" />
+![Strategist](/assets/images/learn/role/strategist.png)

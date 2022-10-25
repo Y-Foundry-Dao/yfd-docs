@@ -9,7 +9,7 @@ has_children: false
 
 # About The Voter
 
-<img src="/assets/images/learn/role/voter.png" />
+![Voter](/assets/images/learn/role/voter.png)
 <br />
 <br />
-<img src="/assets/images/learn/role/voter-3d.png" />
+![Voter3d](/assets/images/learn/role/voter-3d.png)

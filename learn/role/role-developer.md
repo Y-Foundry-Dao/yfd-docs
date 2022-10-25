@@ -9,4 +9,4 @@ has_children: false
 
 # About The Developer
 
-<img src="/assets/images/learn/role/developer.png" />
+![Developer](/assets/images/learn/role/developer.png)

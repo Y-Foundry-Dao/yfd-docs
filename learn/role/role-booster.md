@@ -9,4 +9,4 @@ has_children: false
 
 # About The Booster
 
-<img src="/assets/images/learn/role/booster.png" />
+![Booster](/assets/images/learn/role/booster.png)
