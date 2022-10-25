@@ -8,7 +8,7 @@ has_children: false
 last_modified_date: 2022-10-25
 ---
 
-💸Claim
+# 💸Claim
 
 A method for precise non-custodial token distribution. Each specified wallet/contract address can only claim their own entitlement.
 Users can claim $YFD rewards from community events, incentive programs, airdrops, etc.
