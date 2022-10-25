@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Platform Architecture
-parent: Develop
+parent: 💻 Develop
 nav_order: 6
 has_children: true
 ---

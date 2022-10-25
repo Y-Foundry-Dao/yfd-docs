@@ -2,7 +2,7 @@
 layout: default
 title: Contracts
 nav_order: 3
-parent: Develop
+parent: 💻 Develop
 has_children: true
 ---
 

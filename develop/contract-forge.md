@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Forge
+title: 🔥 Forge
 parent: Contracts
-grand_parent: Develop
+grand_parent: 💻 Develop
 has_children: false
 nav_order: 1
 ---

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Test
+title: 🧪 Test
 nav_order: 7
 has_children: true
 permalink: /test
 ---
 
-# Testing
+# 🧪 Testing
 
 The strength of a community lies with its resiliance which is built through testing.
 

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Contribute
+title: 🤝 Contribute
 nav_order: 9
 has_children: false
 ---
 
-# Contributing
+# 🤝 Contribute to these Documents
 You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
