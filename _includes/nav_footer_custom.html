@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-    <button class="btn js-toggle-dark-mode">YFD Light Theme</button>
+    <button class="btn js-toggle-dark-mode">Switch to Light Theme</button>
 </div>
 
 <script>
@@ -8,10 +8,10 @@ const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 jtd.addEvent(toggleDarkMode, 'click', function(){
   if (jtd.getTheme() === 'light') {
     jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'YFD Light Theme';
+    toggleDarkMode.textContent = 'Switch to Light Theme';
   } else {
     jtd.setTheme('light');
-    toggleDarkMode.textContent = 'YFD Dark Theme';
+    toggleDarkMode.textContent = 'Switch to Dark Theme';
   }
 });
 </script>
