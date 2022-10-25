@@ -10,6 +10,10 @@ Built with Github Pages and [Jekyll](https://jekyllrb.com/)
 
 
 ## Setting up a documentation environment locally
+First this:
+https://jekyllrb.com/docs/installation/ubuntu/
+
+then:
 [Jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 ### Clone YFD-WIKI Repo
