@@ -9,6 +9,11 @@ Style Used:
 [Step-by-Step Guide](https://jekyllrb.com/docs/step-by-step/02-liquid/)
 
 ## Setting up a documentation environment locally
+First this:
+https://jekyllrb.com/docs/installation/ubuntu/
+
+then:
 [Jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
+then:
 [Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
