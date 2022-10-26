@@ -2,7 +2,7 @@
 layout: default
 title: 💡 Idea
 nav_order: 2
-grand_parent: Learn
+grand_parent: 📓 Learn
 parent: Vault Lifecycles
 has_children: false
 last_modified_date: 2022-10-25

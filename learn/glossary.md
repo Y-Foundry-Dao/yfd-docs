@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary
-parent: Learn
+parent: 📓 Learn
 nav_order: 20
 has_children: false
 ---

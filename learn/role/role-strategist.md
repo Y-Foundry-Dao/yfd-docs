@@ -2,7 +2,7 @@
 layout: default
 title: The Strategist
 nav_order: 1
-grand_parent: Learn
+grand_parent: 📓 Learn
 parent: Roles
 has_children: false
 ---
