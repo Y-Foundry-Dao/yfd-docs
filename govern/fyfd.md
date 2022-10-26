@@ -15,6 +15,9 @@ Users who lock $YFD in the Forge Contract become a member of the Boule.
 
 Depositing $YFD tokens issues fYFD points that decay over a locking period.
 
+### Quorum
+fYFD points degrade over time making active participants proportion of governance increase over time as inactive lockers.  Which makes achieving quorum easier over time.
+
 
 | Booster $YFD Locking Period        | Booster $YFD to fYFD multiplier          | fYFD to $YFD parity (+/-) |
 |:-------------|:------------------|:------|
