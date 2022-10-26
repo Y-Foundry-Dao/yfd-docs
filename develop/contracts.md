@@ -6,6 +6,9 @@ parent: 💻 Develop
 has_children: true
 ---
 
+WIP
+{: .label .label-blue}
+
 # Contracts
 
 Sub-section detailing the YFD Contracts

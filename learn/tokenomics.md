@@ -8,4 +8,6 @@ has_children: false
 
 # Tokenomics
 
+WIP
+{: .label .label-blue}
 

@@ -1,12 +1,15 @@
 ---
 layout: default
-title: 🔥Forge
+title: 🔥 Forge
 nav_order: 2
 grand_parent: 📓 Learn
 parent: About Y-Foundry
 has_children: false
 last_modified_date: 2022-10-25
 ---
+
+WIP
+{: .label .label-blue}
 
 # 🔥Forge (Governance)
 
