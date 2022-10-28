@@ -1,20 +1,18 @@
 ---
 layout: default
-title: 🧪 Test
-nav_order: 7
-has_children: true
+title: Deployments
+nav_order: 1
+has_children: false
 has_toc: false
-permalink: /test
 ---
 
 WIP
 {: .label .label-blue}
 
-# 🧪 Testing
+# 🧪 Testing Deployments
 
 The strength of a community lies with its resiliance which is built through testing.
 
-## Testnet Deployments
 
 | Name        | Network          | Deployment Date |
 |:-------------|:------------------|:------|

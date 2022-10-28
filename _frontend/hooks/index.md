@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 🪝 Hooks
-parent: ⚛️ Frontend
 nav_order: 1
 has_children: true
 ---

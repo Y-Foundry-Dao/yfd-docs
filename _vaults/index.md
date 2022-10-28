@@ -1,5 +1,6 @@
 ---
 title: 🏦 Vaults
+layout: default
 has_children: true
 nav_order: 25
 has_toc: false

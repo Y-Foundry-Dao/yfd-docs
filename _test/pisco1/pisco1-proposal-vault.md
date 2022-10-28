@@ -2,7 +2,6 @@
 layout: default
 title: Vault Proposal
 parent: Pisco-1
-grand_parent: 🧪 Test
 nav_order: 4
 ---
 

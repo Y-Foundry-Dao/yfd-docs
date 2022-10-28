@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Pisco-1
-parent: 🧪 Test
-nav_order: 1
+nav_order: 3
 has_children: true
 ---
 

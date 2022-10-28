@@ -1,18 +1,17 @@
 ---
 layout: default
-title: useHandleClicks
-grand_parent: ⚛️ Frontend
+title: useTx
 parent: 🪝 Hooks
 has_toc: false
 has_children: false
-nav_order: 9
+nav_order: 8
 ---
 
 WIP
 {: .label .label-blue}
-# useHandleClicks
+# useTx
 
-useHandleClicks is a custom hook that returns general click handlers
+useTx is a custom hook that standardizes our toast messages
 
 ## Import
 

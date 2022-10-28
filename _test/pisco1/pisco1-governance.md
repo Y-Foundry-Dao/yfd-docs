@@ -2,7 +2,6 @@
 layout: default
 title: Governance Parameters
 parent: Pisco-1
-grand_parent: 🧪 Test
 nav_order: 1
 ---
 

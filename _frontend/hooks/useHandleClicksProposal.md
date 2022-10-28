@@ -1,7 +1,6 @@
 ---
 layout: default
 title: useHandleClicksProposal
-grand_parent: ⚛️ Frontend
 parent: 🪝 Hooks
 has_toc: false
 has_children: false
