@@ -11,6 +11,16 @@ last_modified_date: 2022-10-25
 # 📡 Deployment Process
 _(post-development)_
 
-* Developer uploads contracts to Deployment proposal (??)
-* Deployment proposal submitted by (??)
+WIP
+{: .label .label-blue }
+
+* Developer uploads contracts using the vault deployment proposal
+
+<div class="code-example" markdown="1">
+MVP
+{: .label .label-blue }
+
+* Deployment proposal submitted by Boule
 	* Deployment proposal approval
+
+</div>

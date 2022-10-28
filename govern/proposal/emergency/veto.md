@@ -1,11 +1,11 @@
 ---
 layout: default
 title: 👎🏽 Veto
-nav_order: 4
-grand_parent: Forge
-parent: ⚡ Governance Proposal Instantiation
+nav_order: 2
+grand_parent: 🏛️ Govern
+parent: Proposals
 has_children: false
-last_modified_date: 2022-10-26
+last_modified_date: 2022-10-27
 ---
 
 WIP
@@ -13,8 +13,9 @@ WIP
 
 # 👎🏽 Veto
 
-EMERGENCY GOVERNANCE ACTION
-{: .label .label-important}
+
+{: .warning } 
+> EMERGENCY GOVERNANCE ACTION
 
 {: .important-title }
 > REQUIREMENTS

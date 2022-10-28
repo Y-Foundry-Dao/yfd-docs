@@ -1,22 +1,18 @@
 ---
 layout: default
-title: ⚡ Proposals
-nav_order: 6
-parent: 🏛️ Govern
+title: 🗳️ Vote
+nav_order: 3
+grand_parent: 🏛️ Govern
+parent: Participate (fYFD)
 has_children: true
-last_modified_date: 2022-10-25
+last_modified_date: 2022-10-27
 ---
 
-WIP
-{: .label .label-blue}
+# 🗳️ Vote
 
+### How to Vote 
+Users who lock $YFD in the Forge Contract become a member of the Boule.
 
-# ⚡Governance Proposal Instantiation
-
-{: .important-title .blue}
-> **PURPOSE**
->
-> Utilizes the Forge contract to instantiate a Proposal from the Proposal Template Contract.  Stores the record of the instantiation in the Forge’s proposal registry.
 
 ## Eligibility Requirement
 Proposer must meet or exceed the fYFD Minimum Amount for the respective type of Proposal.
@@ -48,3 +44,22 @@ The amount of blocks since the last active proposal from the proposer must excee
 Acceptance Requirement
 Mandatory proposal fields are filled and validated
 Parameters defined by each proposal type are required for a proposal to be accepted by the contract when submitted by a Proposer.
+
+# ✋🏽 Quorum
+
+{: .highlight-title }
+> Reaching Quorum
+>
+> Because $YFD unlocks due to fYFD points decaying each block, inactive users slowly lose goverance power.  This means that active users that reclaim and relock $YFD stand to gain an increased proportion of governance power over time which should, in theory, reduce the threshold to reach quorum. 
+
+#### Benefits & Responsibilities of the Boule
+
+- Voting
+    - Treasury Spend
+    - Crucible Member Elections
+
+- Fund Proposals
+    - Profit Sharing
+
+WIP
+{: .label .label-blue}

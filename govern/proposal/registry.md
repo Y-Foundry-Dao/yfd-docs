@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🗃️ Proposal Registry
-nav_order: 4
+nav_order: 2
 grand_parent: 🏛️ Govern
 parent: Forge
 has_children: false

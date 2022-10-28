@@ -2,7 +2,7 @@
 layout: default
 title: 🤝 Contribute
 nav_order: 9
-has_children: false
+has_children: true
 last_modified_date: 2022-10-26
 ---
 

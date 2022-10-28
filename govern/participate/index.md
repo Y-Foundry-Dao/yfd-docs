@@ -3,8 +3,8 @@ layout: default
 title: Participate (fYFD)
 nav_order: 2
 parent: 🏛️ Govern
-has_children: false
-last_modified_date: 2022-10-26
+has_children: true
+last_modified_date: 2022-10-27
 ---
 
 # 🔥 How Y-Foundry DAO Governance Works 🔥
@@ -65,20 +65,12 @@ As each block is created on-chain the unlock block is closer to being reached an
 to withdraw.
 
 {: .highlight-title }
-> Quorum
+> Reaching Quorum
 >
-> fYFD points degrade over time making active participants proportion of governance increase over time as inactive lockers which makes achieving the threshold to reach quorum easier over time.
+> Because $YFD unlocks due to fYFD points decaying each block, inactive users slowly lose goverance power.  This means that active users that reclaim and relock $YFD stand to gain an increased proportion of governance power over time which should, in theory, reduce the threshold to reach quorum. 
 
 ### What can a user do with fYFD points
 Users who lock $YFD in the Forge Contract become a member of the Boule.
-#### Benefits & Responsibilities of the Boule
-
-- Voting
-    - Treasury Spend
-    - Crucible Member Elections
-
-- Fund Proposals
-    - Profit Sharing
 
 WIP
 {: .label .label-blue}
