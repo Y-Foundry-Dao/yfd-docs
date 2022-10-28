@@ -64,6 +64,64 @@ gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
+# Define Jekyll collections
+collections:
+  learn:
+    permalink: "/:collection/:path/"
+    output: true
+  govern:
+    permalink: "/:collection/:path/"
+    output: true
+  develop:
+    permalink: "/:collection/:path/"
+    output: true
+  frontend:
+    permalink: "/:collection/:path/"
+    output: true
+  test:
+    permalink: "/:collection/:path/"
+    output: true
+  vaults:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    learn:
+      # Give the collection a name
+      name: 📓 Learn
+      # Exclude the collection from the navigation
+      nav_exclude: false
+      # Fold the collection in the navigation
+      nav_fold: true
+      # Exclude the collection from the search
+      search_exclude: false
+    govern:
+      name: 🏛️ Govern
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    develop:
+      name: 💻 Develop
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    frontend:
+      name: ⚛️ Frontend
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    test:
+      name: 🧪 Test
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    vaults:
+      name: 🏦 Vaults
+      nav_exclude: true
+      nav_fold: true
+      search_exclude: false
 
 plugins:
   - jemoji
