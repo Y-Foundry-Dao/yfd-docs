@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🔥 Forge
-grand_parent: 💻 Develop
+parent: 💻 Develop
 has_children: true
 nav_order: 1
 ---
