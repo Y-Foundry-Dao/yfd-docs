@@ -3,7 +3,8 @@ layout: default
 title: useContractForge
 grand_parent: ⚛️ Frontend
 parent: 🪝 Hooks
-has_children: true
+has_toc: false
+has_children: false
 nav_order: 3
 ---
 
@@ -68,3 +69,8 @@ proposals returns an array of objects. Each object has the following shape:
   addr: 
   index:
 }
+```
+Where addr is the contract address of the proposal, and index is the index of the proposal
+
+
+We pass this array into the `ProposalListAccordions` component, and map through it to create `ProposalListAccordionItems`

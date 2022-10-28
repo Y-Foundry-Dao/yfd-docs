@@ -3,7 +3,8 @@ layout: default
 title: useContractProposal
 grand_parent: ⚛️ Frontend
 parent: 🪝 Hooks
-has_children: true
+has_toc: false
+has_children: false
 nav_order: 4
 ---
 
