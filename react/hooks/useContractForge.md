@@ -8,6 +8,8 @@ has_children: false
 nav_order: 3
 ---
 
+MVP
+{: .label .label-purple}
 # useContractForge
 
 useContractForge is a custom hook that uses the forge smart contract to perform useful functions on it and return values needed for our components

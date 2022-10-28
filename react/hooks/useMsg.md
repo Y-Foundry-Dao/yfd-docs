@@ -8,6 +8,8 @@ has_children: false
 nav_order: 1
 ---
 
+MVP
+{: .label .label-purple}
 # useMsg
 
 useMsg is a custom hook that returns a function for querying and executing msg's on smart contracts
