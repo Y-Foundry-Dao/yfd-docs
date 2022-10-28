@@ -10,6 +10,9 @@ last_modified_date: 2022-10-27
 
 # 🗳️ Vote
 
+WIP
+{: .label .label-blue}
+
 ### How to Vote 
 Users who lock $YFD in the Forge Contract become a member of the Boule.
 

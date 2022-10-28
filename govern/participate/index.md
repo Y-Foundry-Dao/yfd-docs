@@ -9,6 +9,9 @@ last_modified_date: 2022-10-27
 
 # 🔥 How Y-Foundry DAO Governance Works 🔥
 
+WIP
+{: .label .label-blue}
+
 ### How to Participate in Y-Foundry Governance  
 
 > Participation in governance requires fYFD Points.  
@@ -64,13 +67,5 @@ $YFD deposited into the Forge is unavailable for withdrawal by the depositor unt
 As each block is created on-chain the unlock block is closer to being reached and $YFD unlocks from the Forge and becomes available 
 to withdraw.
 
-{: .highlight-title }
-> Reaching Quorum
->
-> Because $YFD unlocks due to fYFD points decaying each block, inactive users slowly lose goverance power.  This means that active users that reclaim and relock $YFD stand to gain an increased proportion of governance power over time which should, in theory, reduce the threshold to reach quorum. 
-
 ### What can a user do with fYFD points
 Users who lock $YFD in the Forge Contract become a member of the Boule.
-
-WIP
-{: .label .label-blue}

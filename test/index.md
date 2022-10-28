@@ -3,6 +3,7 @@ layout: default
 title: 🧪 Test
 nav_order: 7
 has_children: true
+has_toc: false
 permalink: /test
 ---
 
@@ -15,7 +16,6 @@ The strength of a community lies with its resiliance which is built through test
 
 ## Testnet Deployments
 
-Current Testnet Deployments are:
-
-### Terra2
-```pisco-1```
+| Name        | Network          | Deployment Date |
+|:-------------|:------------------|:------|
+| Terra 2           | `pisco-1` | July 2022  |

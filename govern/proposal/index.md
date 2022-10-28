@@ -7,10 +7,6 @@ has_children: true
 last_modified_date: 2022-10-27
 ---
 
-WIP
-{: .label .label-blue}
-
-
 # ⚡Proposals
 
 WIP

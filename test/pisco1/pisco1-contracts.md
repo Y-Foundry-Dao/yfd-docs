@@ -11,18 +11,26 @@ WIP
 
 # Contract Addresses
 
-```
-CW20 YFD Token (instanted a long time ago)
-contract address
-terra1ss9zz4873vk4dd8dvua0vm83m6s8k7ctwp9efac0arytn6jthfgsy2d4a9
+| Name        | Code ID | Contract Address |
+|:-------------|:------------------|:---------|
+| $YFD CW20             | | terra1ss9zz4873vk4dd8dvua0vm83m6s8k7ctwp9efac0arytn6jthfgsy2d4a9  |
+| Forge   | 5038 | terra1ua4nwargz3udh5wlnu0l8knvymr4fsc0mnq426qz442f93zjrw5s63jcst  |
 
-Forge Contract
-code_id: 5038
-admin: terra1upleyfx24jehpgfy9d79d9scps20ffuf6vy706
-contract address:
-terra1ua4nwargz3udh5wlnu0l8knvymr4fsc0mnq426qz442f93zjrw5s63jcst
+## Additional Contracts
 
-Forge Contract JSON:
+| Name        | Code ID | 
+|:-------------|:------------------|
+| Proposal Contract Template  | 5039  |
+| CW20 Vote  | 5040  |
+| CW721 Fee Distribution  | 5041  |
+| Stub Vault  | 5042  |
+| Liquidated Vault  | 5043  |
+| Claim Contract  | 5044  |
+
+
+#### Forge Contract Instantiation JSON:
+
+```json
 {
   "max_lock_duration": "10512000",
   "max_lock_duration_multiplier": "2.5",
@@ -88,39 +96,4 @@ Forge Contract JSON:
     "rolls": [ "proposer", "booster", "strategist"],
     "links": [] }]
 }
-
-==========
-Proposal Contract Template
-code_id: 5039
-contract address
-
-
-==========
-CW20 Vote
-code_id: 5040
-contract address
-
-
-==========
-CW721 Fee Distribution
-code_id: 5041
-contract address
-
-
-==========
-Stub Vault
-code_id: 5042
-contract address
-
-
-==========
-Liquidated Vault
-code_id: 5043
-contract address
-
-
-==========
-Claim Contract
-code_id: 5044
-contract address
 ```

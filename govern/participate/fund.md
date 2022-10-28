@@ -10,6 +10,10 @@ last_modified_date: 2022-10-27
 
 # 💸 Proposal Funding
 
+
+WIP
+{: .label .label-blue}
+
 ### How to Fund a Proposal
 Users who lock $YFD in the Forge Contract become a member of the Boule.
 #### Benefits & Responsibilities of the Boule
@@ -20,6 +24,3 @@ Users who lock $YFD in the Forge Contract become a member of the Boule.
 
 - Fund Proposals
     - Profit Sharing
-
-WIP
-{: .label .label-blue}
