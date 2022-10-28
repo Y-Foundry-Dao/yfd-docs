@@ -68,3 +68,19 @@ All values can be assumed to be queried for the connected wallet address
 
 
 ## Usage
+
+```js
+  const {
+    depositDateFormatted,
+    unlockDateFormatted,
+    lockDurationFormatted,
+    timeUntilUnlockFormatted,
+    amountStaked
+  } = useStake({ stake });
+```  
+
+You see here we just pull in the useStake hook, pass in our stake object, and out comes our useful values. We use this in our `StakeItem` component which displays all the info right now in 1 box.
+
+Below we show how we pull the data into our component and display it.
+
+![useStakeUsage](/assets/images/frontend/useStake/useStakeUsage.png)
