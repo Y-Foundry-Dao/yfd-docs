@@ -12,9 +12,9 @@ nav_order: 1
 
 ### Vote Contract
 
-*InitMsg*
+#### InitMsg
+
 ```json
-InitMsg	
 {
   "name": "YFD Governance Proposal AAAC",
   "symbol": "YFD_GOVAAAC",

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🔥 Forge
+title: 🔥 The Forge
 nav_order: 2
 grand_parent: 📓 Learn
 parent: About Y-Foundry
@@ -11,11 +11,15 @@ last_modified_date: 2022-10-25
 WIP
 {: .label .label-blue}
 
-# 🔥Forge (Governance)
+# 🔥The Forge (Governance)
 
 
-Users can lock $YFD to receive fYFD points.
-Users with fYFD points can create:
+Users can deposit $YFD in the Forge to acquire fYFD points.
+
+![Time Weighted Goverance](/assets/images/learn/about/forge-fyfd-time_weighted_gov.jpg)
+
+### Users with fYFD points can create:
+
 
 
 * Spend proposals to send funds from the treasury to a pre-whitelisted recipient address (service provider, community contributor, consultant, etc.).

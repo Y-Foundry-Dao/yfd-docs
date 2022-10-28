@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 👎🏽 Veto
-nav_order: 2
+nav_order: 8
 grand_parent: 🏛️ Govern
 parent: Proposals
 has_children: false

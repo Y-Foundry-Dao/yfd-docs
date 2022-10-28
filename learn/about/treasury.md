@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🪙 Treasury
+title: 🪙 DAO Treasury
 nav_order: 6
 grand_parent: 📓 Learn
 parent: About Y-Foundry

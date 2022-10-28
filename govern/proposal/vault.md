@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🔒 Vault
-nav_order: 3
+nav_order: 2
 grand_parent: 🏛️ Govern
 parent: Proposals
 has_children: false

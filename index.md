@@ -31,7 +31,7 @@ This could get you rekt
 <div class="code-example" markdown="1">
 
 {: .note }
-Something to be aware of.
+I Knew I Should’ve Taken That Left Turn At Albuquerque!
 
 </div>
 <div class="code-example" markdown="1">

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ↩️Cancelation
-nav_order: 4
+nav_order: 5
 grand_parent: 🏛️ Govern
 parent: Proposals
 has_children: false
