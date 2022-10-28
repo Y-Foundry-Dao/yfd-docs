@@ -22,3 +22,6 @@ _Off-chain for MVP_
 * Developer bidding
 	* Whitelisted developers submits Statement of Work bids
 	* A bid is accepted, developer is confirmed
+
+WIP
+{: .label .label-blue }

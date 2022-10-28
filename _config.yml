@@ -3,6 +3,27 @@ logo: "/assets/images/horizontal_logo_orange-white.png"
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: yfd
 
+callouts_level: loud # or quiet
+callouts:
+  highlight: 
+    title: 🌈 Highlight
+    color: yellow
+  important:
+    title: ⚡ Important
+    color: blue
+  new:
+    title: ✨ New  ✨
+    color: pink
+  note:
+    title: 📝 Note
+    color: purple
+  warning:
+    title: ⚠️ Warning
+    color: red
+  gov:
+    title: 🗳️ Governance
+    color: green
+
 # Aux links for the upper right navigation
 aux_links:
   "Medium":
@@ -19,6 +40,7 @@ aux_links:
     - "//yfoundry.io/"
 
 aux_links_new_tab: true
+
 
 # Footer content
 # appears at the bottom of every page's main content

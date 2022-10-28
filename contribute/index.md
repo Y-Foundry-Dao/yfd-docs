@@ -2,8 +2,11 @@
 layout: default
 title: 🤝 Contribute
 nav_order: 9
-has_children: false
+has_children: true
+last_modified_date: 2022-10-26
 ---
+
+{{ last-modified-at | date: site.date_format }}
 
 # 🤝 Contribute to these Documents
 You can use the [editor on GitHub](https://github.com/pmarsceill/test-jtd/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
@@ -12,7 +15,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a lightweight and easy-to-use syntax for styling your writing. 
+It includes conventions for:
 
 ```markdown
 Syntax highlighted code block
@@ -21,11 +25,19 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
+* Bulleted
+    * List
+
+- Another
+    - List
+
++ Also A 
+    + List
 
 1. Numbered
 2. List
+
+Hypen -- ated
 
 **Bold** and _Italic_ and `Code` text
 
@@ -35,4 +47,4 @@ Syntax highlighted code block
 ### Additional Resources
 [Jekyll Variables](https://jekyllrb.com/docs/variables/)
 
-[GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+[Just the Docs Markdown](https://just-the-docs.github.io/just-the-docs/docs/index-test/)

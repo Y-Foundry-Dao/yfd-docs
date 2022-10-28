@@ -6,6 +6,9 @@ has_children: true
 permalink: /test
 ---
 
+WIP
+{: .label .label-blue}
+
 # 🧪 Testing
 
 The strength of a community lies with its resiliance which is built through testing.

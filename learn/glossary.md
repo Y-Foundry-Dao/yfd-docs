@@ -33,6 +33,8 @@ has_children: false
 
 - Third generation vaults — Vaults that have intelligent behavior and decision-making, in place of a human operator.
 
+- Unlock Block — The block at which $YFD deposited in the Forge Contract becomes available for withdrawal.
+
 - Vaults — A smart contract that allows users to deposit tokens in order to perform a specified function (strategy).
 
 - YFD — Shorthand for Y-Foundry DAO.
