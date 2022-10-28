@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 🏛️ Govern
-nav_order: 4
-has_children: true
+title: Overview
+nav_order: 1
+has_children: false
 permalink: /govern
 last_modified_date: 2022-10-27
 ---

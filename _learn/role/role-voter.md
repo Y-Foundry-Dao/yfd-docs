@@ -1,8 +1,7 @@
 ---
 layout: default
 title: The Voter
-nav_order: 1
-grand_parent: 📓 Learn
+nav_order: 3
 parent: Roles
 has_children: false
 ---

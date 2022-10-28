@@ -2,7 +2,6 @@
 layout: default
 title: 🪙 DAO Treasury
 nav_order: 6
-grand_parent: 📓 Learn
 parent: About Y-Foundry
 has_children: false
 last_modified_date: 2022-10-25

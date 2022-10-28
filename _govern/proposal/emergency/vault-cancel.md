@@ -2,7 +2,6 @@
 layout: default
 title: ↩️Cancelation
 nav_order: 5
-grand_parent: 🏛️ Govern
 parent: Proposals
 has_children: false
 last_modified_date: 2022-10-27

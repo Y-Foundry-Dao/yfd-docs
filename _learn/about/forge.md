@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 🔥 The Forge
-nav_order: 2
-grand_parent: 📓 Learn
+nav_order: 3
 parent: About Y-Foundry
 has_children: false
 last_modified_date: 2022-10-25

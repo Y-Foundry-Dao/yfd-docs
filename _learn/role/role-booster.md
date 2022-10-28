@@ -1,8 +1,7 @@
 ---
 layout: default
 title: The Booster
-nav_order: 2
-grand_parent: 📓 Learn
+nav_order: 7
 parent: Roles
 has_children: false
 ---

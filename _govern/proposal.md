@@ -2,7 +2,6 @@
 layout: default
 title: Proposals
 nav_order: 4
-parent: 🏛️ Govern
 has_children: true
 last_modified_date: 2022-10-27
 ---

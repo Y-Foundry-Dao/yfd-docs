@@ -1,0 +1,25 @@
+---
+layout: default
+title: Vault Proposal
+parent: Pisco-1
+nav_order: 4
+---
+WIP
+{: .label .label-blue }
+
+
+# YFD CW20 Token Contract
+https://station.terra.money/contract/execute/terra1ss9zz4873vk4dd8dvua0vm83m6s8k7ctwp9efac0arytn6jthfgsy2d4a9
+
+
+### Submit a Vault Funding Proposal
+```json
+{
+    "send": {
+        "contract": "terra1ua4nwargz3udh5wlnu0l8knvymr4fsc0mnq426qz442f93zjrw5s63jcst",
+        "amount": "5000",
+        "msg": "ewogICAgImNyZWF0ZV92YXVsdF9wcm9wb3NhbCI6IHsKICAgICAgICAibXNnIjogewogICAgICAgICAgICAibmFtZSI6ICJGb29fbmFtZSIsCiAgICAgICAgICAgICJwcm9wb3NhbF9pbmZvIjogewogICAgICAgICAgICAgICAgIm5hbWUiOiAiRm9vX25hbWUiLAogICAgICAgICAgICAgICAgInByb3Bvc2FsX3VybCI6ICJ3d3cuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInR2bF9saW1pdCI6ICIxMDAwMDAwIiwKICAgICAgICAgICAgICAgICJjb250YWN0IjogWwogICAgICAgICAgICAgICAgICAgICJub2JvZHlAd3d3LmV4YW1wbGUuY29tIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJkZXZlbG9wZXIiOiAidGVycmExbWd3eTBqeGZzbW44dnR5eGVwbnRsems2bTcwMzBqZWprbTV4aGsiLAogICAgICAgICAgICAgICAgImRldmVsb3BtZW50X2Nvc3QiOiAiNjcwMDAiLAogICAgICAgICAgICAgICAgImZ1bmRpbmdfZGVub21pbmF0aW9uIjogInRlcnJhMXNzOXp6NDg3M3ZrNGRkOGR2dWEwdm04M202czhrN2N0d3A5ZWZhYzBhcnl0bjZqdGhmZ3N5MmQ0YTkiLAogICAgICAgICAgICAgICAgIm5mdF9xdWFudGl0eSI6IDEwMCwKICAgICAgICAgICAgICAgICJzdGF0ZW1lbnRfb2Zfd29yayI6ICJ3d3cuZXhhbXBsZS5jb20iLAogICAgICAgICAgICAgICAgInBheW1lbnRfc2NoZWR1bGUiOiAyLAogICAgICAgICAgICAgICAgInBheW1lbnRfZnJlcXVlbmN5IjogMTAsCiAgICAgICAgICAgICAgICAiZ2l0aHViIjogInd3dy5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgICAgICAic2VsZl92b3VjaGVkX2luZm9ybWF0aW9uIjogInd3dy5leGFtcGxlLmNvbSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQ=="
+    }
+}
+```
+

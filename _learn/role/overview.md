@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Roles
-nav_order: 5
-parent: 📓 Learn
+nav_order: 3
 has_children: true
 ---
 

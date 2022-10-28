@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Crucibles
-parent: 📓 Learn
 nav_order: 3
 has_children: false
 ---

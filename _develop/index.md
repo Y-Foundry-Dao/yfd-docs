@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 💻 Develop
-nav_order: 5
-has_children: true
+title: Overview
+nav_order: 1
+has_children: false
 permalink: /develop
 ---
 

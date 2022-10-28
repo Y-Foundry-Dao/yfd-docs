@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 📓 Learn
-nav_order: 2
-has_children: true
+title: Overview
+nav_order: 1
+has_children: false
 permalink: /learn
 ---
 

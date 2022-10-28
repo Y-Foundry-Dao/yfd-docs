@@ -1,8 +1,7 @@
 ---
 layout: default
 title: The Developer
-nav_order: 3
-grand_parent: 📓 Learn
+nav_order: 9
 parent: Roles
 has_children: false
 ---

@@ -2,8 +2,7 @@
 layout: default
 title: Vote
 parent: 🔥 Forge
-grand_parent: 💻 Develop
-has_children: true
+has_children: false
 nav_order: 1
 ---
 

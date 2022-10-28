@@ -1,9 +1,8 @@
 ---
 layout: default
 title: 🔥 Forge
-parent: 💻 Develop
 has_children: true
-nav_order: 1
+nav_order: 3
 ---
 
 WIP

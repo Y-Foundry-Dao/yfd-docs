@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Contracts
-nav_order: 3
-parent: 💻 Develop
-has_children: true
+nav_order: 5
+has_children: false
 ---
 
 WIP

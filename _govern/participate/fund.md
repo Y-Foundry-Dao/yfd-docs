@@ -2,9 +2,8 @@
 layout: default
 title: 💸 Fund
 nav_order: 6
-grand_parent: 🏛️ Govern
 parent: Participate (fYFD)
-has_children: true
+has_children: false
 last_modified_date: 2022-10-27
 ---
 

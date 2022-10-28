@@ -1,8 +1,7 @@
 ---
 layout: default
 title: 💸 Rewards Claim
-nav_order: 4
-grand_parent: 📓 Learn
+nav_order: 7
 parent: About Y-Foundry
 has_children: false
 last_modified_date: 2022-10-25

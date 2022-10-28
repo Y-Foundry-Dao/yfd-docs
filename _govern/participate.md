@@ -2,7 +2,6 @@
 layout: default
 title: Participate (fYFD)
 nav_order: 2
-parent: 🏛️ Govern
 has_children: true
 last_modified_date: 2022-10-27
 ---
