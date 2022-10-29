@@ -86,9 +86,6 @@ collections:
   develop:
     permalink: "/:collection/:path/"
     output: true
-  frontend:
-    permalink: "/:collection/:path/"
-    output: true
   test:
     permalink: "/:collection/:path/"
     output: true
@@ -115,11 +112,6 @@ just_the_docs:
       search_exclude: false
     develop:
       name: 💻 Develop
-      nav_exclude: false
-      nav_fold: true
-      search_exclude: false
-    frontend:
-      name: ⚛️ Frontend
       nav_exclude: false
       nav_fold: true
       search_exclude: false

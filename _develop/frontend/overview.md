@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Overview
+title: Frontend
 nav_order: 0
-has_children: false
+has_children: true
 ---
 
 # React Frontend

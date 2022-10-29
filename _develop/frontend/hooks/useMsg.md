@@ -2,8 +2,9 @@
 layout: default
 title: useMsg
 parent: 🪝 Hooks
-has_toc: false
+grand_parent: Frontend
 has_children: false
+has_toc: false
 nav_order: 1
 ---
 

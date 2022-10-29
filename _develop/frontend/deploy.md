@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How to Deploy
+parent: Frontend
 nav_order: 1
 has_children: false
 ---
