@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Markdown Examples
-parent: 🤝 Contribute
-nav_order: 99
+nav_order: 50
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

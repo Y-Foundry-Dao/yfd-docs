@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Style Guide
-parent: 🤝 Contribute
-nav_order: 99
+nav_order: 25
 ---
 
 # ✍️ Contribution Style Guide

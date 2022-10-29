@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bounties
-nav_order: 5
+nav_order: 20
 has_children: false
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Welcome
-has_children: false
-nav_order: 1
+layout: default
+has_children: true
+nav_order: 0
 has_toc: true
 last_modified_date: 2022-10-26
 ---

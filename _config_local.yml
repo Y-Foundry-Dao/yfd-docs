@@ -78,6 +78,9 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 # Define Jekyll collections
 collections_dir: docs
 collections:
+  contribute:
+    permalink: "/:collection/:path/"
+    output: true
   learn:
     permalink: "/:collection/:path/"
     output: true
@@ -97,6 +100,11 @@ collections:
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
+    contribute:
+      name: 🤝 Contribute
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
     learn:
       # Give the collection a name
       name: 📓 Learn
