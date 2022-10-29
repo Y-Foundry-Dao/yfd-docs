@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Platform Architecture
-nav_order: 6
+nav_order: 3
 has_children: true
 ---
 
