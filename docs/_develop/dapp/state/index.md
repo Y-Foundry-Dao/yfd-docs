@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ⚛️ State
-parent: Frontend
+parent: dApp Frontend
 has_children: true
 ---
 

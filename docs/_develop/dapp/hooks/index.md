@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🪝 Hooks
-parent: Frontend
+parent: dApp Frontend
 has_children: true
 ---
 

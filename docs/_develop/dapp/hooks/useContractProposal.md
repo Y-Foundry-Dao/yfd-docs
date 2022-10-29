@@ -2,7 +2,7 @@
 layout: default
 title: useContractProposal
 parent: 🪝 Hooks
-grand_parent: Frontend
+grand_parent: dApp Frontend
 has_children: false
 has_toc: false
 nav_order: 4

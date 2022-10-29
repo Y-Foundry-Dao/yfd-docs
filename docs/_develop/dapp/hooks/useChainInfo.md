@@ -2,7 +2,7 @@
 layout: default
 title: useChainInfo
 parent: 🪝 Hooks
-grand_parent: Frontend
+grand_parent: dApp
 has_children: false
 has_toc: false
 nav_order: 6

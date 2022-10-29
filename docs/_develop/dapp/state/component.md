@@ -2,7 +2,7 @@
 layout: default
 title: Component
 parent: ⚛️ State
-grand_parent: Frontend
+grand_parent: dApp Frontend
 has_children: false
 has_toc: false
 has_children: true

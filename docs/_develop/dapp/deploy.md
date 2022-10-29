@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Deploy
-parent: Frontend
+parent: dApp Frontend
 nav_order: 1
 has_children: false
 ---

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: usehandleInputs
+title: useTx
 parent: 🪝 Hooks
-grand_parent: Frontend
+grand_parent: dApp Frontend
 has_children: false
 has_toc: false
 nav_order: 8
@@ -10,9 +10,9 @@ nav_order: 8
 
 WIP
 {: .label .label-blue}
-# useHandleInputs
+# useTx
 
-useHandleInputs is a hook that allows us to abstract our input functionality from the components.
+useTx is a custom hook that standardizes our toast messages
 
 ## Import
 
