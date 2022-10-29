@@ -76,6 +76,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Define Jekyll collections
+collections_dir: docs
 collections:
   learn:
     permalink: "/:collection/:path/"
@@ -96,6 +97,7 @@ collections:
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
+    collections_dir: docs
     learn:
       # Give the collection a name
       name: 📓 Learn

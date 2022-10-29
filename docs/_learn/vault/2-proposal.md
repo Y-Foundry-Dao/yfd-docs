@@ -8,6 +8,10 @@ last_modified_date: 2022-10-25
 ---
 
 # ✍️ Proposal Process
+
+![Vault Proposal Process](/assets/images/learn/about/proposal-vault.png)
+
+
 * Submit on-chain proposal
 	* Meet requirements
 * Voting commences

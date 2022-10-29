@@ -15,6 +15,7 @@ WIP
 ### How to Vote 
 Users who lock $YFD in the Forge Contract become a member of the Boule.
 
+![Voting Process](/assets/images/learn/about/vote.png)
 
 # ✋🏽 Quorum
 

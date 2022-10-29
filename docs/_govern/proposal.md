@@ -38,6 +38,10 @@ Proposals are Instantiated in the Forge
 | Veto      | Emergency | 250,000 |
 | Cancel Proposal     | Emergency | 250,000 |
 
+{: .note }
+> Proposals are Instantiated in the Forge Contract
+
+
 ### Standard Proposal Eligibility Requirement
 
 {: .gov-title }
@@ -94,3 +98,13 @@ The amount of blocks since the last active proposal from the proposer must excee
 Acceptance Requirement
 Mandatory proposal fields are filled and validated
 Parameters defined by each proposal type are required for a proposal to be accepted by the contract when submitted by a Proposer.
+
+### Notes
+
+    and because of the way our infrastructure is architected the system is trustless.  When interacting with contracts you just ask or tell the contracts what you want to do but you don't have to tell the contracts with whom you want to react (except the token CW20 $YFD deposits to the forge... you have to state the Forge address) 
+
+    otherwise the entire system knows about the entire system -- so there's no opportunity to accept some outside redirection of funds because funds distribution is determined based on how a particular fYFD holder/vault user has interacted with the system
+    so many systems partially on-chain rely on someone passing addresses to a contract and the contract checking permission against the addresses where-as YFD says "oh it's you... let me check my on-chain ledger" -- yes, {sir|madam} I have these activities available to you
+    I'm working on writing up the docs
+    taking our technical documents that we used to build the system and translating them into a cohesive story that someone can walk through and understand the ins and outs of the system
+    If you're interested I can share the work in progress docs, but I think it's better that I hold back until the draft is complete (and then get your feedback) because otherwise I think the docs might be confusing

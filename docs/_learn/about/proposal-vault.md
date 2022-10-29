@@ -9,6 +9,8 @@ last_modified_date: 2022-10-25
 
 # 🏦 Vault proposals
 
+![Vault Proposal Process](/assets/images/learn/about/proposal-vault.png)
+
 * Individual vault proposals can accept funds in stablecoins from users with fYFD points.
 Once fully funded, a vault proposal issues Booster NFTs to users who contributed funds, as well as the proposer.
 
