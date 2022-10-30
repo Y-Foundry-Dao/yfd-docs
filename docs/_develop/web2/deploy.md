@@ -2,30 +2,26 @@
 layout: default
 title: How to Deploy
 parent: Web2 Frontend
-nav_order: 1
+nav_order: 5
 has_children: false
 ---
+
+# How to Deploy
+
+
+===
+
+## How to Deploy the Y-Foundry Web2 Frontend
 
 WIP
 {: .label .label-blue}
 
-## How to Deploy the Y-Foundry Frontend
+### Pre-requesites:
 
-### Local Install Pre-requesite 
-1. Install Git
+1. Github Account
 
-2. Checkout `https://github.com/y-foundry-dao/yfd-dapp-gov/`
+### Deploy a Forked Copy of Y-Foundry Web2 Frontend
 
-3. Install React
-    - NPM
-    - Yarn
-
-## How to Deploy the Y-Foundry Static Landing Page
-
-### Pre-requesite
-1. Create a Github Account
-
-### Fork the 
 1. Fork `https://github.com/y-foundry-dao/yfoundry-frontend/`
 
 2. Log into [Fleek.co](https://fleek.co/) with your Github Account
@@ -36,4 +32,17 @@ WIP
 
 5. Deploy
 
+===
 
+### Local Install Pre-requesite 
+
+WIP
+{: .label .label-blue}
+
+1. Install Git
+
+2. Checkout `https://github.com/y-foundry-dao/yfd-dapp-gov/`
+
+3. Install React
+    - NPM
+    - Yarn

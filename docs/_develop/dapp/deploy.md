@@ -33,8 +33,3 @@ WIP
 4. Set Parameters
 
 5. Deploy
-
-
-# How to Deploy Static Site Frontend:
-
-1. `https://github.com/y-foundry-dao/yfoundry-frontend/`

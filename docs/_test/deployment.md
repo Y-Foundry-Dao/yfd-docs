@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Deployments
-nav_order: 1
+nav_order: 5
 has_children: false
 has_toc: false
 ---
