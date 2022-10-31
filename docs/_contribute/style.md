@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Style Guide
+title: Writing Style Guide
 nav_order: 25
 ---
 
-# ✍️ Contribution Style Guide
+# ✍️ Writing Style Guide
 
 WIP
 {: .label .label-blue }

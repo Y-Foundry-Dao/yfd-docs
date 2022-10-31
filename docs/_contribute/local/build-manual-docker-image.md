@@ -3,7 +3,7 @@ layout: default
 title: Windows
 nav_order: 1
 has_children: false
-parent: Setup Local Build
+parent: Work Locally
 last_modified_date: 2022-10-31
 ---
 
