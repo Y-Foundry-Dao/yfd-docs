@@ -49,7 +49,7 @@ A key feature worth noting
 </div>
 <div class="code-example" markdown="1">
 {: .gov }
-Data used the protocol that is mutable using a governance proposal.
+Data used in the protocol that can be modified by governance proposal.
 </div>
 
 ### Content Labels
