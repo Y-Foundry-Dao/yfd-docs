@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mac OSX Setup
-nav_order: 5
+nav_order: 10
 has_children: false
 parent: Work Locally
 last_modified_date: 2022-10-31

@@ -3,11 +3,12 @@ layout: default
 title: Work Locally
 nav_order: 20
 has_children: true
+has_toc: false
 ---
 
-## Setup Local Environment
+# Setup Local Environment
 
-### Pre-requisites
+## Pre-requisites
 
 ### Create GitHub Account
 
@@ -42,5 +43,7 @@ has_children: true
 1. Sign-in with Github Credentials
 
 
-Thanks to Bill Raymond for the guide to build a working Docker Jekyll Github Pages Image
-`https://github.com/BillRaymond/my-jekyll-docker-website`
+{: .highlight }
+> Thanks to Bill Raymond for the guide to build a working Docker Jekyll Github Pages Image
+>
+> `https://github.com/BillRaymond/my-jekyll-docker-website`
