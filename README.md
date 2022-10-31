@@ -1,4 +1,4 @@
-# Y-Foundry Wiki Repository
+# Y-Foundry Documentation Repository
 
 Built with Github Pages and [Jekyll](https://jekyllrb.com/)
 
@@ -10,20 +10,45 @@ Built with Github Pages and [Jekyll](https://jekyllrb.com/)
 
 
 ## Setting up a documentation environment locally
-First this:
-https://jekyllrb.com/docs/installation/ubuntu/
 
-then:
-[Jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/)
+## Pre-requestites ##
+
+1. Git
+
+2. Docker
 
 ### Clone YFD-WIKI Repo
 ```git clone https://github.com/Y-Foundry-Dao/yfd-wiki.git```
 
-### From the ```yfd-wiki``` directory
-```bundle install```
+### From the ```yfd-wiki``` cloned repo directory
 
-```bundle exec jekyll serve --config _config_local.yml```
+`make build`
+To build the Docker Image and Container
 
+*** 
+`make start`
+To launch the Documentation Service
+
+Open a browser to [local documentation site](http://localhost:4000)
+
+***
+
+#### Other Commands
+
+`make stop`
+
+To stop the development environment
+
+*** 
+`make rebuild`
+To rebuild the local development environment
+
+***
+`make clean`
+To clean image and container files
+
+
+*** 
 
 ## For Reference
 
