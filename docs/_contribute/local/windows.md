@@ -38,3 +38,6 @@ last_modified_date: 2022-10-31
 1. 
 
 
+### More Information
+
+Learn more about Docker Containers and VS Code [here](https://code.visualstudio.com/docs/devcontainers/tutorial)
