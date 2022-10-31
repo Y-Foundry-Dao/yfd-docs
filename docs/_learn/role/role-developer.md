@@ -9,3 +9,5 @@ has_children: false
 # About The Developer
 
 ![Developer](/assets/images/learn/role/developer.png)
+
+something doesnt matter
