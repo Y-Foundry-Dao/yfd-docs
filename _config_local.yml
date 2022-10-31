@@ -137,4 +137,3 @@ just_the_docs:
 
 plugins:
   - jekyll-default-layout
-  - jemoji

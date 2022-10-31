@@ -45,5 +45,3 @@ gem "webrick", "~> 1.7"
 gem "just-the-docs", "= 0.4.0.rc3"
 
 gem "jekyll-default-layout", "~> 0.1.5"
-
-gem "jemoji", "~> 0.12.0"
