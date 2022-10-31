@@ -1,8 +1,8 @@
-title: "Y-Foundry Wiki"
+title: "Y-Foundry Docs"
+description: Mutably Good Documentation
 logo: "/assets/images/horizontal_logo_orange-white.png"
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: yfd
-
 callouts_level: loud # or quiet
 callouts:
   highlight: 
@@ -42,6 +42,7 @@ aux_links:
 aux_links_new_tab: true
 
 
+
 # Footer content
 # appears at the bottom of every page's main content
 
@@ -67,6 +68,9 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 # Define Jekyll collections
 collections_dir: docs
 collections:
+  contribute:
+    permalink: "/:collection/:path/"
+    output: true
   learn:
     permalink: "/:collection/:path/"
     output: true
@@ -86,6 +90,11 @@ collections:
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
+    contribute:
+      name: 🤝 Contribute
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
     learn:
       # Give the collection a name
       name: 📓 Learn
@@ -117,4 +126,4 @@ just_the_docs:
       search_exclude: false
 
 plugins:
-  - jemoji
+  - jekyll-default-layout

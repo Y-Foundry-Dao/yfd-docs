@@ -1,15 +1,15 @@
 # Based on https://github.com/just-the-docs/just-the-docs/blob/13a1ac2a42e666227e3145e80f030b574f5d496d/_config.yml
 title: "Y-Foundry Wiki"
-description: The details are in the document.
+description: Mutably Good Documentation
 logo: "/assets/images/horizontal_logo_orange-white.png"
 
+# Start Unique to the Local Configuration Settings
 # Theme
 theme: "just-the-docs"
 #remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
-
-# Local Setting
 baseurl: ""
 url: ""
+# End Unique Settings for Local
 
 color_scheme: yfd
 
