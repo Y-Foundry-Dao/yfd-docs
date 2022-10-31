@@ -7,7 +7,7 @@ parent: Work Locally
 last_modified_date: 2022-10-31
 ---
 
-## Setup the `YFD-Docs` Development Environment
+# Setup the `YFD-Docs` Development Environment
 
 ## Downloading the Docs Repo
 
