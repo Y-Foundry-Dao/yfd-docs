@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Work Locally
+title: Setup Local Build
 nav_order: 20
 have_children: true
 ---
 
 ## Setup Local Environment
-
 
 
 Thanks to Bill Raymond
