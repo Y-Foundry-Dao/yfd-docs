@@ -8,21 +8,23 @@ has_toc: false
 
 # Setup Local Environment
 
+***
 ## Pre-requisites
+***
 
-### Create GitHub Account
+### GitHub Account
 
 1. Go to [Github](https://www.github.com/)
 
-1. Create GitHub Account
+1. Create (personal) [GitHub Account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 
-### Install Docker
+### Docker Desktop
 
 1. Go to [Docker Website](https://www.docker.com/)
 
 2. Download & Install Docker Desktop
 
-### Install Visual Studio Code
+### Visual Studio Code
 
 1. Go To [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -32,7 +34,7 @@ has_toc: false
 
 1. Install `Docker` and `Dev Containers` extensions
 
-### Install Github Desktop
+### Github Desktop
 
 1. Go To [Github Desktop](https://github.com/)
 
@@ -42,6 +44,7 @@ has_toc: false
 
 1. Sign-in with Github Credentials
 
+***
 
 {: .highlight }
 > Thanks to Bill Raymond for the guide to build a working Docker Jekyll Github Pages Image
