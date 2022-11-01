@@ -46,7 +46,7 @@ WIP
     "links": [] },
 {"address": "terra1mgwy0jxfsmn8vtyxepntlzk6m7030jejkm5xhk",
     "name": "Trenten",
-    "image_link": "https://avatars.githubusercontent.com/u/83611789?v=4",
+    "image_link": "https://avatars.githubusercontent.com/u/15914068?v=4",
     "rolls": [ "developer", "proposer", "booster", "strategist", "payee" ],
     "links": [] },
 {"address": "terra1ymc59uuuklnudfnkwhezzlnmec6f3cze7tsve9",
