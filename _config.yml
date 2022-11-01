@@ -1,6 +1,11 @@
 title: "Y-Foundry Docs"
 description: Mutably Good Documentation
 logo: "/assets/images/horizontal_logo_orange-white.png"
+
+email: admin@yfoundry.io
+twitter_username: YFoundryDAO
+github_username: yfoundry
+
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
 color_scheme: yfd
 callouts_level: loud # or quiet
