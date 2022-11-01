@@ -4,11 +4,12 @@ SET TOPDIR=%CD%
 
 IF /I "%1"=="build" GOTO build
 IF /I "%1"=="start" GOTO start
-IF /I "%1"=="	@echo "Open http" GOTO 	@echo "Open http
+IF /I "%1"=="start-daemon" GOTO start-daemon
 IF /I "%1"=="stop" GOTO stop
 IF /I "%1"=="rebuild" GOTO rebuild
 IF /I "%1"=="open" GOTO open
 IF /I "%1"=="jekyll" GOTO jekyll
+IF /I "%1"=="jekyll-daemon" GOTO jekyll-daemon
 IF /I "%1"=="prep" GOTO prep
 IF /I "%1"=="clean" GOTO clean
 GOTO error
@@ -20,16 +21,49 @@ GOTO error
 
 :start
 	docker start yfd-docs
-	docker exec -d -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
+	cls
+	@echo ===============================================================================
+	@echo Starting Jekyll Server...
+	@echo Please wait...
+	@echo ===============================================================================
+	@echo.
+	@echo Opening Web Browser to http://localhost:4000/
+	@echo.
+	@echo ===============================================================================
+	@echo If you receive a message saying "This page isn't working" or "EMPTY RESPONSE"
+	@echo.
+	@echo Wait a few moments before trying to refresh the page
+	@echo.
+	@echo Initialization takes approximately 30 seconds
+	@echo.
+	@echo.
+	start http://localhost:4000/
+
+	make jekyll
+
 	GOTO :EOF
 
-:	@echo "Open http
-	CALL make.bat //localhost:4000/
-	CALL make.bat in
-	CALL make.bat your
-	CALL make.bat preferred
-	CALL make.bat web
-	CALL make.bat browser."
+:start-daemon
+	docker start yfd-docs
+	CALL :jekyll-daemon
+
+	@echo ===============================================================================
+	@echo Starting Jekyll Server...
+	@echo Please wait...
+	@echo ===============================================================================
+	@echo.
+	@echo Initialization takes approximately 30 seconds...
+	timeout /t 30
+	@echo.
+	@echo.
+	@echo Opening Web Browser to http://localhost:4000/
+	@echo.
+	@echo If you receive a message saying "Page Not Found / No Response"
+	@echo Wait a few moments before trying to refresh the page
+	@echo.
+
+	start http://localhost:4000/
+
 	GOTO :EOF
 
 :stop
@@ -48,6 +82,10 @@ GOTO error
 
 :jekyll
 	docker exec -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
+	GOTO :EOF
+
+:jekyll-daemon
+	docker exec -d -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
 	GOTO :EOF
 
 :prep

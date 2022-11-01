@@ -6,10 +6,42 @@ build: ## Build docker image and container
 
 start: ## start the container 
 	docker start yfd-docs  
-	docker exec -d -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
+	@echo ===============================================================================
+	@echo Starting Jekyll Server...
+	@echo Please wait...
+	@echo ===============================================================================
+	@echo.
+	@echo Open Web Browser to http://localhost:4000/
+	@echo.
+	@echo ===============================================================================
+	@echo If you receive a message saying "This page isn't working" or "EMPTY RESPONSE"
+	@echo.
+	@echo Wait a few moments before trying to refresh the page
+	@echo.
+	@echo Initialization takes approximately 30 seconds
+	@echo.
+	@echo.
 
-	@echo "Jekyll Service is starting in the background... please wait a few seconds."
-	@echo "Open http://localhost:4000/ in your preferred web browser."
+	make jekyll
+
+start-daemon: ## start the container 
+	docker start yfd-docs  
+	make jekyll-daemon
+
+	@echo ===============================================================================
+	@echo Starting Jekyll Server...
+	@echo Please wait...
+	@echo ===============================================================================
+	@echo.
+	@echo Open a Web Browser to http://localhost:4000/
+	@echo.
+	@echo ===============================================================================
+	@echo If you receive a message saying "This page isn't working" or "EMPTY RESPONSE"
+	@echo.
+	@echo Wait a few moments before trying to refresh the page
+	@echo.
+	@echo Initialization takes approximately 30 seconds
+	@echo.
 
 stop: # stop the docker container
 	docker stop yfd-docs
@@ -24,6 +56,9 @@ open: # open an interactive terminal in the docker container
 
 jekyll: # start the Jekyll service in an interactive terminal winner
 	docker exec -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
+
+jekyll-daemon: # start the Jekyll service in an interactive terminal winner
+	docker exec -d -it -w /workspaces/yfd-docs yfd-docs sh -c "bundle exec jekyll serve --host 0.0.0.0 --config _config_local.yml"
 
 prep: # delete WSL Zone.Identifier files - useful before running a github commit
 	docker exec -it -w /workspace/site github-site sh -c "find . -name "*:Zone.Identifier" -type f -delete"
