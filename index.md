@@ -9,7 +9,7 @@ last_modified_date: 2022-10-31
 
 # Welcome to Y-Foundry DAO
 
-Y-Foundry Wiki
+Y-Foundry Document Library 
 
 ## This is a living set of documents.  
 
