@@ -1,6 +1,6 @@
 @echo off
 
-SET TOPDIR=$(shell pwd)
+SET TOPDIR=%CD%
 
 IF /I "%1"=="build" GOTO build
 IF /I "%1"=="start" GOTO start
