@@ -36,7 +36,7 @@ has_toc: false
 
 ### Github Desktop
 
-1. Go To [Github Desktop](https://github.com/)
+1. Go To [Github Desktop](https://desktop.github.com/)
 
 1. Download `Github Desktop`
 
