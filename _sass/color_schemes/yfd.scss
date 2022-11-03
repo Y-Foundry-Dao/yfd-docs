@@ -15,7 +15,9 @@ $feedback-color: darken($sidebar-color, 3%);
 // The following highlight theme is more legible than that used for the light color scheme
 
 @import "./color_schemes/syntax-one-dark.scss";
- $code-background-color: #282c34;
+@import "./color_schemes/tabs.scss";
+
+$code-background-color: #282c34;
 
 // @import "./vendor/OneDarkJekyll/syntax-firewatch";
 // $code-background-color: #282c34;

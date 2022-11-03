@@ -10,17 +10,16 @@ start: ## start the container
 	@echo Starting Jekyll Server...
 	@echo Please wait...
 	@echo ===============================================================================
-	@echo.
+	@echo
 	@echo Open Web Browser to http://localhost:4000/
-	@echo.
+	@echo
 	@echo ===============================================================================
 	@echo If you receive a message saying "This page isn't working" or "EMPTY RESPONSE"
-	@echo.
+	@echo
 	@echo Wait a few moments before trying to refresh the page
-	@echo.
+	@echo
 	@echo Initialization takes approximately 30 seconds
-	@echo.
-	@echo.
+	@echo
 
 	make jekyll
 
