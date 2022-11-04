@@ -19,15 +19,7 @@
     display: block;
   }
   
-  /*
-   Styling
-  */
-  body {
-    font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
-    color: #333;
-    font-weight: 300;
-  }
-  
+ 
   .tabset > label {
     position: relative;
     display: inline-block;
@@ -68,21 +60,4 @@
   .tab-panel {
     padding: 30px 0;
     border-top: 1px solid #ccc;
-  }
-  
-  /*
-   Demo purposes only
-  */
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-  
-  body {
-    padding: 30px;
-  }
-  
-  .tabset {
-    max-width: 65em;
   }
