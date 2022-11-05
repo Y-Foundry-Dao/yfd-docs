@@ -6,6 +6,9 @@ has_children: true
 has_toc: false
 ---
 
+WIP
+{: .label .label-blue}
+
 # Web2 Frontend
 
 ## Source Repository
@@ -36,4 +39,3 @@ has_toc: false
 
 ## Preview
 ![Website Preview](/assets/images/develop/web2/yfoundry-preview.png)
-

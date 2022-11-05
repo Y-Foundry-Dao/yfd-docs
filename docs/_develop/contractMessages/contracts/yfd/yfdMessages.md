@@ -1,0 +1,91 @@
+---
+layout: default
+title: YFD Messages
+parent: Contract Messages
+has_children: true
+has_toc: false
+nav_order: 1
+---
+
+WIP
+{: .label .label-blue}
+
+# **YFD Contract Messages**
+
+This page describes our possible query and execute messages on the YFD smart contract. 
+
+## Contract Address
+
+| Name         | Contract Address                                                  |
+|:-------------|:------------------------------------------------------------------|
+| $YFD CW20    | terra1ss9zz4873vk4dd8dvua0vm83m6s8k7ctwp9efac0arytn6jthfgsy2d4a9  |
+
+You can go to the [contract tab](https://station.terra.money/contract) on the terra station web app to manually run query and execute messages.
+
+![YFD Contract](/assets/images/develop/dapp/contracts/yfdSearch.png)
+
+Searching for the contract shows useful information such as the `Code ID` `Creator` `Admin` and the `InitMsg` that was used to instantiate the contract. In the case of this YFD contract the `InitMsg` is 
+
+```json
+{
+  "decimals": 6,
+  "initial_balances": [
+    {
+      "address": "terra1upleyfx24jehpgfy9d79d9scps20ffuf6vy706",
+      "amount": "10000000000000"
+    }
+  ],
+  "marketing": {
+    "logo": {
+      "url": "https://yfoundry.io/logo-512-orange-transparent-square.png"
+    }
+  },
+  "minter_response": {
+    "minter": "terra1upleyfx24jehpgfy9d79d9scps20ffuf6vy706"
+  },
+  "name": "Y-Foundry DAO",
+  "symbol": "YFD"
+}
+```
+
+Below I will describe the possible Query and Execute messages that can be used on this YFD contract
+
+<div class="tabset">
+  <!-- Tab 1 -->
+  <input type="radio" name="tabset" id="tab1" aria-controls="query" checked>
+  <label for="tab1">Query</label>
+  <!-- Tab 2 -->
+  <input type="radio" name="tabset" id="tab2" aria-controls="execute">
+  <label for="tab2">Execute</label>
+  
+  <div class="tab-panels">
+    <section id="query" class="tab-panel">
+      <h2><u>All Accounts:</u></h2>
+      <p>This query will pull all wallet addresses that hold YFD</p>
+      <table style="width:100%">
+        <tr>
+          <th>Query</th>
+          <th>JSON</th>
+          <th>JS Object</th>
+        </tr>
+        <tr>
+          <td>All Accounts</td>
+          <td><code>{"all_accounts":{}}</code></td>
+          <td><code>{all_accounts:{}}</code></td>
+        </tr>
+      </table>
+      <code>
+      {
+  "accounts": [
+    "terra10cf...9t0f"
+  ]
+}
+</code>
+  </section>
+  <section id="execute" class="tab-panel">
+      <h2>Execute Messages</h2>
+       
+  </section>
+  </div>
+  
+</div>
