@@ -1,7 +1,7 @@
 ---
 layout: default
-title: YFD Execute
-parent: YFD Messages
+title: Vote Execute
+parent: Vote Messages
 grand_parent: Contract Messages
 has_children: false
 has_toc: false
@@ -11,4 +11,4 @@ nav_order: 2
 WIP
 {: .label .label-blue}
 
-# YFD Contract Executes
+# Vote Contract Executes
