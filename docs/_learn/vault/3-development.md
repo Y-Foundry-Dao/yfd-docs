@@ -36,6 +36,8 @@ How it works now - Sprint 5 MVP:
 	Funds free up automatically at block milestones, no vote required
 			
 
+***
+
 
 🔆SPRINT 7 enhancements
 Initial Payment (optional) — This is the initial amount that gets paid to developers following the passing of the proposal to kickstart development.
@@ -59,6 +61,9 @@ ON RESOLVED FUNDING DISTRIBUTION:
 In the proposal contract when voting is completed and funds are distributed
 Store transaction id and record of payment vote and distribution to have a forensic-friendly trail of payments.
 Note: Results of the vote are shown, as well as amount, timestamp of payment, address, and description of the milestone.
+
+***
+
 
 WIP
 {: .label .label-blue }

@@ -13,3 +13,4 @@ last_modified_date: 2022-10-25
 * Users can claim $YFD rewards from DAO initatives.
 * Users can claim their funds from vaults that have been deprecated or migrated.
 * Boost NFT holders can claim their fee-sharing entitlements.
+

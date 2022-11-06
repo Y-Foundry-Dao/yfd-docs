@@ -9,8 +9,13 @@ last_modified_date: 2022-10-25
 
 # 💡Strategy Development
 
+
+{: .important }
+> This part of the process is _Off-chain for MVP_
+>
+> Utilizing DeWork, Discord, and Github to coordinate and organize discussion and submissions
+
 ## Pre-proposal
-_Off-chain for MVP_
 
 * Getting ready for proposal
     *	Discuss vault idea in strategy channel

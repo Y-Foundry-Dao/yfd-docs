@@ -1,9 +1,8 @@
 ---
 layout: default
-title: 🏦 Overview
-nav_order: 0
-parent: Vault Lifecycles
-has_children: false
+title: Vault Lifecycles
+nav_order: 5
+has_children: true
 last_modified_date: 2022-11-05
 ---
 
@@ -11,7 +10,8 @@ last_modified_date: 2022-11-05
 
 	These activities and their coded functions are unique to each vault and the code developed from the proposal and the interaction with the underlying asset platforms.
 
-## Actions available in every vault
+
+***
 
 ### 💸Deposit
 
