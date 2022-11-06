@@ -1,3 +1,8 @@
+$pink-000: #f77ef1;
+$pink-100: #f967f1;
+$pink-200: #e94ee1;
+$pink-300: #dd2cd4;
+
 /*
  CSS for the main interaction
 */
@@ -58,6 +63,6 @@
   }
   
   .tab-panel {
-    padding: 30px 0;
+    padding: 30px 5%;
     border-top: 1px solid #ccc;
   }

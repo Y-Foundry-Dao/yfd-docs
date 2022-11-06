@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 💡 Idea
-nav_order: 2
+nav_order: 5
 parent: Vault Lifecycles
 has_children: false
 last_modified_date: 2022-10-25
