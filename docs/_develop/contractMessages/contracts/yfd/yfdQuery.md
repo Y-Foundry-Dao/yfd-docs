@@ -10,6 +10,15 @@ nav_order: 1
 
 # YFD Contract Queries
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 Below I will describe the possible Query messages that can be used on this YFD contract in both object and JSON formats
 
 ## Token Info:

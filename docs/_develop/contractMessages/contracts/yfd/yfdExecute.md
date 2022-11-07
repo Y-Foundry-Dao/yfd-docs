@@ -8,10 +8,16 @@ has_toc: false
 nav_order: 2
 ---
 
-WIP
-{: .label .label-blue}
-
 # YFD Contract Executes
+
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 Below I will describe the possible Execute messages that can be used on this YFD contract in both object and JSON formats.
 
