@@ -8,60 +8,180 @@ has_toc: false
 nav_order: 1
 ---
 
-WIP
-{: .label .label-blue}
-
 # YFD Contract Queries
 
-Below I will describe the possible Query messages that can be used on this YFD contract in both object and JSON formats. When writing javascript code and sending messages there, the queryMsg method expects an object.
+Below I will describe the possible Query messages that can be used on this YFD contract in both object and JSON formats
 
-<section id="categories">
+## Token Info:
 
-__Markdown__ getting converted to __HTML__ inside a ___block-level element___.
+{% capture description %}
+Gets the on-chain information about the token stored on the blockchain
+{% endcapture %}
+{% capture key %}
+token_info
+{% endcapture %}
+{% capture object %}
+{token_info: {}}
+{% endcapture %}
+{% capture json %}
+{"token_info": {}}
+{% endcapture %}
+{% capture result %}
+{
+  "name": "Y-Foundry DAO",
+  "symbol": "YFD",
+  "decimals": 6,
+  "total_supply": "10000000000000"
+}  
+{% endcapture %}
 
-A list of categories:
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
 
-- foo
-- bar
+## Download Logo:
 
-</section>
+{% capture description %}
+Downloads the on-chain logo for the YFD token if there is one
+{% endcapture %}
+{% capture key %}
+download_logo
+{% endcapture %}
+{% capture object %}
+{download_logo:{}}
+{% endcapture %}
+{% capture json %}
+{"download_logo":{}}
+{% endcapture %}
+{% capture result %}
+logo not found: query wasm contract failed: invalid request
+{% endcapture %}
 
-<div class="tabset">
-  <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="query" checked>
-  <label for="tab1">Query</label>
-  <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="execute">
-  <label for="tab2">Execute</label>
-  
-  <div class="tab-panels">
-    <section id="query" class="tab-panel">
-      <h2><u>All Accounts:</u></h2>
-      <p>This query will pull all wallet addresses that hold YFD</p>
-      <table style="width:100%">
-        <tr>
-          <th>Query</th>
-          <th>JSON</th>
-          <th>JS Object</th>
-        </tr>
-        <tr>
-          <td>All Accounts</td>
-          <td><code>{"all_accounts":{}}</code></td>
-          <td><code>{all_accounts:{}}</code></td>
-        </tr>
-      </table>
-      <code>
-      {
-  "accounts": [
-    "terra10cf...9t0f"
-  ]
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
+
+## Marketing Info:
+
+{% capture description %}
+Gets the marketing information for the YFD token
+{% endcapture %}
+{% capture key %}
+marketing_info
+{% endcapture %}
+{% capture object %}
+{marketing_info:{}}
+{% endcapture %}
+{% capture json %}
+{"marketing_info":{}}
+{% endcapture %}
+{% capture result %}
+{
+  "project": null,
+  "description": null,
+  "logo": {
+    "url": "https://yfoundry.io/logo-512-orange-transparent-square.png"
+  },
+  "marketing": null
 }
-</code>
-  </section>
-  <section id="execute" class="tab-panel">
-      <h2>Execute Messages</h2>
-       
-  </section>
-  </div>
-  
-</div>
+{% endcapture %}
+
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
+
+## All Accounts:
+
+{% capture description %}
+Gets all wallet addressess that hold YFD
+{% endcapture %}
+{% capture key %}
+all_accounts
+{% endcapture %}
+{% capture object %}
+{all_accounts:{}}
+{% endcapture %}
+{% capture json %}
+{"all_accounts":{}}
+{% endcapture %}
+{% capture result %}
+{"accounts":["address", "address", "address", ...]}
+{% endcapture %}
+
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
+
+## Balance:
+
+{% capture description %}
+Gets the YFD balance of the given wallet address. Balance is returned in microunits
+{% endcapture %}
+{% capture key %}
+balance
+{% endcapture %}
+{% capture object %}
+{balance: { address: [account_address]}}
+{% endcapture %}
+{% capture json %}
+{"balance": { "address": "[account_address]"}}
+{% endcapture %}
+{% capture result %}
+{"balance": "78999989667"}
+{% endcapture %}
+
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
+
+## Allowance:
+
+{% capture description %}
+Gets the allowance list of the given owner and spender
+{% endcapture %}
+{% capture key %}
+allowance
+{% endcapture %}
+{% capture object %}
+{
+  allowance: {
+    owner: "Addr",
+    spender: "Addr"
+  }
+}
+{% endcapture %}
+{% capture json %}
+{
+  "allowance": {
+    "owner": "Addr",
+    "spender": "Addr"
+  }
+}
+{% endcapture %}
+{% capture result %}
+Work In Progress
+{% endcapture %}
+
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
+
+## All Allowances:
+
+{% capture description %}
+Gets the list of all allowances of the token that owner received and not expired
+{% endcapture %}
+{% capture key %}
+all_allowances
+{% endcapture %}
+{% capture object %}
+{
+  all_allowances: {
+    owner: "Addr",
+    start_after: "Addr",
+    limit: 1 
+  }
+}
+{% endcapture %}
+{% capture json %}
+{
+  "all_allowances": {
+    "owner": "Addr",
+    "start_after": "Addr",
+    "limit": 1 
+  }
+}
+{% endcapture %}
+{% capture result %}
+{"allowances": []}
+{% endcapture %}
+
+{% include message_query_info.html description=description key=key object=object json=json result=result %}
