@@ -12,7 +12,7 @@ WIP
 
 # **YFD Contract Messages**
 
-This page describes our possible query and execute messages on the YFD smart contract. 
+This section describes our YFD smart contract. Based off the CW20 token standard as described [here](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md)
 
 ## Contract Address
 

@@ -19,7 +19,7 @@ This page describes our possible query and execute messages on the Forge smart c
 
 You can go to the [contract tab](https://station.terra.money/contract) on the terra station web app to manually run query and execute messages.
 
-Searching for the contract shows useful information such as the `Code ID` `Creator` `Admin` and the `InitMsg` that was used to instantiate the contract. In the case of this YFD contract the `InitMsg` is 
+Searching for the contract shows useful information such as the `Code ID` `Creator` `Admin` and the `InitMsg` that was used to instantiate the contract. In the case of this Forge contract the `InitMsg` is 
 
 ```json
 {
