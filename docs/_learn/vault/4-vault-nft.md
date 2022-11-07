@@ -9,8 +9,6 @@ last_modified_date: 2022-11-05
 
 ## 🖼️NFT Generation for Strategist, Boosters, YFD Treasury
 
-> Vaults launch / deploy before NFT mint so the NFT factory knows the address of the  Vault contract (on Cosmos it is the same address even if redeployed)
-
 MVP
 {: .label .label-purple }
 
@@ -18,8 +16,6 @@ MVP
 > In MVP each NFT is worth an equal amount of profit sharing. 
 
 ***
-
-__NFTs are minted__
 
 ### Strategist NFT
 5% (this is the default bonus for strategist) + % stablecoin contributed value based on contribution to vault funding amount
@@ -43,6 +39,8 @@ file_key    The downloadable file for the NFT
 name    Name of the artwork from NFT Artist
 edition_total    defined by amount deposited
 
+***
+
 ### Booster NFT(s) 
 Unique Image
 Individual Booster NFT based on 67% minus the Strategist NFT %
@@ -65,6 +63,8 @@ url    https://yfoundry.io/
 file_key    The downloadable file for the NFT
 name    Name of the artwork from NFT Artist
 edition_total    defined by amount deposited by the strategist
+
+***
 
 ### YFD Treasury NFTs
 Unique Image
@@ -90,4 +90,4 @@ file_key    The downloadable file for the NFT
 name    Name of the artwork from NFT Artist
 edition_total    33
 
-
+***

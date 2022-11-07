@@ -2,6 +2,7 @@
 layout: default
 title: Markdown Examples
 nav_order: 50
+last_modified_date: 2022-11-05
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
@@ -235,6 +236,14 @@ Some text
 - [ ] level 1 item (task)
 - [ ] level 1 item (task)
 
+```
+- [ ] level 1 item (task)
+   - level 2 item (ul)
+   - level 2 item (ul)
+- [ ] level 1 item (task)
+- [ ] level 1 item (task)
+```
+
 ***
 
 
@@ -246,6 +255,13 @@ Some text
 - level 1 item (ul)
 - level 1 item (ul)
 
+```
+- level 1 item (ul)
+   - [ ] level 2 item (task)
+   - [ ] level 2 item (task)
+- level 1 item (ul)
+- level 1 item (ul)
+```
 ***
 
 

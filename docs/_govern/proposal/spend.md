@@ -13,12 +13,13 @@ WIP
 ## 💵 Treasury Spend Proposal
 
 ## Requirements
-	* Addresses to receive funds have been affirmed through a whitelist proposal
+* Addresses to receive funds have been affirmed through a whitelist proposal
 
 MVP
 {: .label .label-purple }
-	For MVP this feature is in Testing
-	Funds will be held in a multisig and dripped into the treasury as needed for Spend proposals until sufficient testing has been completed to assure the communtiy that the contract is safe and reliable
+> For MVP this feature is in Testing
+>
+> Funds will be held in a multisig and dripped into the treasury as needed for Spend proposals until sufficient testing has been completed to assure the communtiy that the contract is safe and reliable
 
 V1
 {: .label .label-yellow }

@@ -4,6 +4,7 @@ title: Setting Up Docs Locally
 nav_order: 1
 has_children: false
 has_toc: false
+last_modified_date: 2022-11-05
 ---
 
 # Setup A Local Documentation Environment
