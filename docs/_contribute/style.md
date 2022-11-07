@@ -2,7 +2,6 @@
 layout: default
 title: Writing Style Guide
 nav_order: 25
-last_modified_date: 2022-10-31
 ---
 
 # ✍️ Writing Style Guide

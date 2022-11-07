@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 🚀 Fund
+title: 💸 Fund
 nav_order: 6
 parent: Participate (fYFD)
 has_children: false
@@ -23,28 +23,6 @@ Users who lock $YFD in the Forge Contract become a member of the Boule.
 
 - Fund Proposals
     - Profit Sharing
-
-## 🚀 Voting + Boosting (Funding)
-For proposals that are not 100% funded by the Strategist at the time of Boule vote.
-
-Boule members when depositing vote tokens into a proposal can contribute stablecoins alongside their vote tokens to become a Booster
-Voter Stablecoin Deposit Restrictions:
-Voter contributed stablecoins are accepted until the development funding total cost defined in the proposal is reached.
-Contribution of stablecoin funds by an individual is limited by the individual fYFD funding limit based on the fYFD amount of the individual
-1 fYFD = 1 $YFD worth of stablecoins, based on $YFD price recorded at time of proposal submission
-Minimum Booster Deposit (fixed value assigned to NFTs (equilibrium)):
-The minimum stablecoin deposit required is: 
-The amount to completely receive the profit of one NFT
-To be deposited in complete NFT segments
-Maximum deposit allowed per Booster:
-10% of total booster funding allotted 
-Vault Proposal Funding Maximum Limit Check
-When a booster votes and attempts to fund a vault proposal the proposal contract checks to see if the limit for funding (maximum) has been reached
-Proposal rejects contract execution based on funding limit being reached
-User can resubmit vote without funding
-When funding is reached the proposal voting continues until voting block time has expired. (no early execution)
-
-Total contribution of individual boule members is limited by the development funding total cost minus any amount already contributed by the Strategist. (Strategist gets first pick in funding the proposal)
 
 
 ### Notes

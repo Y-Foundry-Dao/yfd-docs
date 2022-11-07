@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 🔒 Retirement
-nav_order: 50
+nav_order: 2
 parent: Vault Lifecycles
 has_children: false
 last_modified_date: 2022-10-25
@@ -10,6 +10,7 @@ last_modified_date: 2022-10-25
 # 🔒 Decommissioning / Retirement
 _(end of life)_
 
+<div class="code-example" markdown="1">
 MVP
 {: .label .label-blue }
 
@@ -17,6 +18,8 @@ To retire or decommission a vault the use of an emergency proposal called "Vault
 
 {: .note }
 Secondary function of "Vault Stop" may include withdrawing all assets from the underlying strategy protocols to the safety of the vault contract itself.  This is a safety mechanism to allowing users to claim their deposited assets regardless of the state of external protocols.
+</div>
+
 
 WIP
 {: .label .label-blue }

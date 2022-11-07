@@ -2,8 +2,8 @@
 layout: default
 title: Vote Messages
 parent: Contract Messages
-has_children: true
-has_toc: true
+has_children: false
+has_toc: false
 nav_order: 4
 ---
 

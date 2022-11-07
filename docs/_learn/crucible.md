@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Crucibles
-nav_order: 10
+nav_order: 3
 has_children: false
 ---
 
