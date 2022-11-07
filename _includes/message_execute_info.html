@@ -1,0 +1,16 @@
+<p>{{include.description}}</p>
+
+{% capture key %}
+  {{include.key}}
+{% endcapture %}
+{% capture object %}
+  {{include.object}}
+{% endcapture %}
+{% capture json %}
+  {{include.json}}
+{% endcapture %}
+
+<div class="tabset">
+  {% include message_execute_tabs.html key=key %}
+  {% include message_tab_panels.html key=key object=object json=json %}
+</div>
