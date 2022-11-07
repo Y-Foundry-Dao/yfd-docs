@@ -16,3 +16,4 @@ Once fully funded, a vault proposal issues Booster NFTs to users who contributed
 
 * Funds can only be disbursed to the pre-whitelisted developer specified in the proposal.
 Vault proposals will escrow development funds to the developer, to be claimed on a block-based milestone basis.
+

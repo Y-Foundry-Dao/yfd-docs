@@ -1,0 +1,27 @@
+{% capture key1 %}
+  {{include.key}}1
+{% endcapture %}
+{% capture key2 %}
+  {{include.key}}2
+{% endcapture %}
+{% capture key3 %}
+  {{include.key}}3
+{% endcapture %}
+
+<div class="tab-panels">
+    <section id="object" class="tab-panel" >
+      <pre><code class="code-block">
+        {{ include.object }}
+      </code></pre>
+    </section>
+    <section id="json" class="tab-panel" >
+      <pre><code class="code-block">
+        {{ include.json }}
+      </code></pre>
+    </section>
+    <section id="result" class="tab-panel" >
+      <pre><code class="code-block">
+        {{ include.result }}
+      </code></pre>
+    </section>
+  </div>

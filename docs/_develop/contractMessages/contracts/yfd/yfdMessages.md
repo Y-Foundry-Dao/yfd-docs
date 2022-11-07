@@ -3,7 +3,7 @@ layout: default
 title: YFD Messages
 parent: Contract Messages
 has_children: true
-has_toc: false
+has_toc: true
 nav_order: 1
 ---
 
@@ -12,7 +12,7 @@ WIP
 
 # **YFD Contract Messages**
 
-This page describes our possible query and execute messages on the YFD smart contract. 
+This section describes our YFD smart contract. Based off the CW20 token standard as described [here](https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.md)
 
 ## Contract Address
 
@@ -47,45 +47,3 @@ Searching for the contract shows useful information such as the `Code ID` `Creat
   "symbol": "YFD"
 }
 ```
-
-Below I will describe the possible Query and Execute messages that can be used on this YFD contract
-
-<div class="tabset">
-  <!-- Tab 1 -->
-  <input type="radio" name="tabset" id="tab1" aria-controls="query" checked>
-  <label for="tab1">Query</label>
-  <!-- Tab 2 -->
-  <input type="radio" name="tabset" id="tab2" aria-controls="execute">
-  <label for="tab2">Execute</label>
-  
-  <div class="tab-panels">
-    <section id="query" class="tab-panel">
-      <h2><u>All Accounts:</u></h2>
-      <p>This query will pull all wallet addresses that hold YFD</p>
-      <table style="width:100%">
-        <tr>
-          <th>Query</th>
-          <th>JSON</th>
-          <th>JS Object</th>
-        </tr>
-        <tr>
-          <td>All Accounts</td>
-          <td><code>{"all_accounts":{}}</code></td>
-          <td><code>{all_accounts:{}}</code></td>
-        </tr>
-      </table>
-      <code>
-      {
-  "accounts": [
-    "terra10cf...9t0f"
-  ]
-}
-</code>
-  </section>
-  <section id="execute" class="tab-panel">
-      <h2>Execute Messages</h2>
-       
-  </section>
-  </div>
-  
-</div>
