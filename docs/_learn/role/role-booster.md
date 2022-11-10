@@ -9,3 +9,6 @@ has_children: false
 # About The Booster
 
 ![Booster](/assets/images/learn/role/booster.png)
+
+
+Boosters are Orange.
