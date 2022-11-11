@@ -33,7 +33,7 @@ last_modified_date: 2022-10-31
 
 1. `apt install git`
 
-1. `git clone https://github.com/Y-Foundry-Dao/yfd-wiki.git`
+1. `git clone https://github.com/Y-Foundry-Dao/yfd-docs.git`
 
 1. 
 
