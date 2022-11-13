@@ -17,10 +17,10 @@ Built with Github Pages and [Jekyll](https://jekyllrb.com/)
 
 2. Docker
 
-### Clone YFD-WIKI Repo
-```git clone https://github.com/Y-Foundry-Dao/yfd-wiki.git```
+### Clone YFD-DOCS Repo
+```git clone https://github.com/Y-Foundry-Dao/yfd-docs.git```
 
-### From the ```yfd-wiki``` cloned repo directory
+### From the ```yfd-docs``` cloned repo directory
 
 `make build`
 To build the Docker Image and Container
