@@ -1,13 +1,13 @@
 ---
 layout: default
-title: 🏦 Vault proposals
+title: 🗳 Vault proposals
 nav_order: 5
 parent: About Y-Foundry
 has_children: false
 last_modified_date: 2022-10-25
 ---
 
-# 🏦 Vault proposals
+# 🗳 Vault proposals
 
 Vault Proposals are how strategists turn their strategy ideas 💡 into actual vaults that live onchain.
 
