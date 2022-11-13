@@ -7,7 +7,7 @@ FROM ruby:2.7-alpine3.15
 # Uncomment the following line if you want to use the latest version of Jekyll:
 # FROM ruby:3.0.3-alpine3.15
 
-WORKDIR /workspaces/yfd-wiki
+WORKDIR /workspaces/yfd-docs
 
 # Add Jekyll dependencies to Alpine
 RUN apk update

@@ -99,9 +99,9 @@ WIP
 
 1. Sign-in to Github Desktop 
     - Connect to the `https://github.com/Y-Foundry-DAO/` repository
-    - Filter Repositories by `yfd-wiki`
+    - Filter Repositories by `yfd-docs`
 
-1. Clone `yfd-wiki`
+1. Clone `yfd-docs`
 
 1. Change Branch
     - Create New Branch

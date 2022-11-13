@@ -16,9 +16,9 @@ last_modified_date: 2022-10-31
 
 1. Something  testing testing again update dammit
     - Connect to the `https://github.com/Y-Foundry-DAO/` repository
-    - Filter Repositories by `yfd-wiki`
+    - Filter Repositories by `yfd-docs`
 
-1. Clone `yfd-wiki`
+1. Clone `yfd-docs`
 
 1. Change Branch
     - Create New Branch
@@ -46,7 +46,7 @@ last_modified_date: 2022-10-31
 ![new terminal](/assets/images/vscode/console-terminal.png)
 
 {: .important }
-> If it's the first time you're opening yfd-wiki:
+> If it's the first time you're opening yfd-docs:
 > 1. Run `bundle install`
 >   - then `bundle upgrade`
 
