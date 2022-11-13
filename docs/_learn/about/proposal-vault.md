@@ -9,11 +9,14 @@ last_modified_date: 2022-10-25
 
 # 🗳 Vault proposals
 
-Vault Proposals are how strategists turn their strategy ideas 💡 into actual vaults that live onchain.
+Vault Proposals are how strategists turn their strategy ideas 💡 into live on-chain vaults.
 
-Steps:
+![Five Ingredients of a YFD Vault](/assets/images/learn/about/five-ingredients-of-a-yfd-vault.png)
 
-1. To create a vault proposal, a strategist must first have sufficient fYFD (link to gov parameter section later). 
+## Steps:
+
+1. To create a vault proposal, a strategist must first have sufficient fYFD.
+[insert note about how to lock YFD, and how many YFD is required]
 2. Next, a strategist must fill in a strategy prospectus document (link to strategy prospectus). It's okay if they don't have all the answers at first. A strategist can work with the community (in discord) to receive helpful feedback that will help clarify their proposal over time.
 3. A strategist must also secure a developer. They can use the vault prospectus as a starting point for discussions with whitelisted developers (link to guide for whitelisting) in the YFD community and find someone willing and able to take on the work required. We'll include a guide on how to do this (link to guide later).
 4. Once a developer has been attached to the project, and a bid amount agreed upon, the strategist can finalize the prospectus document with the details of the developer, milestones, developer's fee, and deliverables.
