@@ -13,7 +13,7 @@ Y-Foundry Document Library
 
 ## Welcome
 
-The future of the blockchain is built by the community. Y-Foundry DAO is a platform enabling those with ideas to connect, ideate, fund, develop, and launch the community-owned crypto projects of tomorrow.
+Y-Foundry DAO is a community-run funding platform enabling those with ideas to connect, ideate, fund, develop, and launch the community-owned crypto projects of tomorrow.
 
 Y-Foundry DAO leverages smart contracts and NFTs in novel ways to enable:
 1. Democratized access to talented builders that have been whitelisted by the community.
