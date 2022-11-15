@@ -13,7 +13,15 @@ Y-Foundry Document Library
 
 ## Welcome
 
+Propose. Vote. Build.
+
 Y-Foundry DAO is a community-run funding platform enabling those with ideas to connect, ideate, fund, develop, and launch the community-owned crypto projects of tomorrow.
+
+With YFD, you can:
+1. Launch vaults that automate strategies that use assets in Defi, such as auto-compounding, arbitrage, or hedging.
+2. Become a backer of other users' vault ideas, claiming a portion of the fees earned.
+3. Take on interesting tasks, earn reputation, and build a portfolio of experience in Web3.
+4. Work for projects paid for by the community, with payments guaranteed by smart contracts.
 
 Y-Foundry DAO leverages smart contracts and NFTs in novel ways to enable:
 1. Democratized access to talented builders that have been whitelisted by the community.
