@@ -19,7 +19,7 @@ In Terra Station go to Contract, enter the vote contract address, enter one of t
 Execute to vote affirm.
 {% endcapture %}
 {% capture key %}
-Vote Affirm
+vote_affirm
 {% endcapture %}
 {% capture object %}
 {
@@ -43,7 +43,7 @@ Vote Affirm
 Execute to vote deny.
 {% endcapture %}
 {% capture key %}
-Vote Deny
+vote_deny
 {% endcapture %}
 {% capture object %}
 {
@@ -67,7 +67,7 @@ Vote Deny
 Execute to vote affirm with penalty. 
 {% endcapture %}
 {% capture key %}
-Vote Affirm with Penalty
+vote_affirm_with_penalty
 {% endcapture %}
 {% capture object %}
 {
@@ -91,7 +91,7 @@ Vote Affirm with Penalty
 Execute to vote deny with penalty. 
 {% endcapture %}
 {% capture key %}
-Vote Deny with Penalty
+vote_deny_with_penalty
 {% endcapture %}
 {% capture object %}
 {
@@ -115,7 +115,7 @@ Vote Deny with Penalty
 Execute to abstain from the vote.
 {% endcapture %}
 {% capture key %}
-Vote Abstain
+vote_abstain
 {% endcapture %}
 {% capture object %}
 {
@@ -139,7 +139,7 @@ Vote Abstain
 Execute to finalize the vote. 
 {% endcapture %}
 {% capture key %}
-Finalize Vote
+finalize_vote
 {% endcapture %}
 {% capture object %}
 {
@@ -159,7 +159,7 @@ Finalize Vote
 Execute to initiate an emergency cancellation of the vote. 
 {% endcapture %}
 {% capture key %}
-Emergency Cancel
+emergency_cancel
 {% endcapture %}
 {% capture object %}
 {

@@ -18,7 +18,7 @@ WIP
 Gets the on-chain information about the vote token.
 {% endcapture %}
 {% capture key %}
-Token Info
+token_info
 {% endcapture %}
 {% capture object %}
 {
@@ -48,7 +48,7 @@ Token Info
 Gets all wallet addressess that hold vote tokens.
 {% endcapture %}
 {% capture key %}
-All Accounts
+all_accounts
 {% endcapture %}
 {% capture object %}
 {
@@ -77,7 +77,7 @@ All Accounts
 Gets all wallet addresses that held vote tokens for a vote that has been finalized. 
 {% endcapture %}
 {% capture key %}
-Initial Accounts
+initial_accounts
 {% endcapture %}
 {% capture object %}
 {
@@ -106,7 +106,7 @@ Initial Accounts
 Returns the number of votes the specified address has. 
 {% endcapture %}
 {% capture key %}
-Balance
+balance
 {% endcapture %}
 {% capture object %}
 {
@@ -137,7 +137,7 @@ Balance
 Returns the total number of votes available, the voting expiration block, the block quorum was reached if it has, the block voting ends on, and the current state of the proposal. It will also return the total counts of each vote option in the case of emergency votes and after the end of the standard vote.
 {% endcapture %}
 {% capture key %}
-Votes
+votes
 {% endcapture %}
 {% capture object %}
 {

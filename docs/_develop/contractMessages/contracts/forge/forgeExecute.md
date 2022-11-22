@@ -15,10 +15,10 @@ WIP
 
 ## Stake YFD
 {% capture description %}
-Deposits YFD in Forge. The below JSON should be base64 encoded and included in the "msg" field of a YFD execute send message.
+Deposits YFD in Forge. The below JSON should be base64 encoded and included in the "msg" field of a YFD execute send message. The YFD contract will execute the stake message on the Forge. 
 {% endcapture %}
 {% capture key %}
-Stake YFD
+stake
 {% endcapture %}
 {% capture object %}
 {
@@ -39,10 +39,10 @@ Stake YFD
 
 ## Create Vault Proposal
 {% capture description %}
-Submits vault proposal to Forge. The below JSON should be base64 encoded and included in the "msg" field of a YFD execute send message.
+Submits vault proposal to Forge. The below JSON should be base64 encoded and included in the "msg" field of a YFD execute send message. The YFD contract will execute the create_vault_proposal message on the Forge. 
 {% endcapture %}
 {% capture key %}
-Create Vault Proposal
+create_vault_proposal
 {% endcapture %}
 {% capture object %}
 {
@@ -105,52 +105,12 @@ Create Vault Proposal
 ## Create Proposal
 These create_proposal messages are executed directly on the Forge contract. In Terra Station, go to Contract, enter the Forge address in the search bar, and click "Execute."
 
-### Create Message Proposal
-{% capture description %}
-Creates a message proposal. 
-{% endcapture %}
-{% capture key %}
-Create Message Proposal
-{% endcapture %}
-{% capture object %}
-{ 
-  create_proposal: {
-    proposal_type: {
-      message: {
-        contract_addr: "[proposal vote address]",
-        message: encodeBase64({ message_object }),
-      }
-    },
-    emergency: true,
-    justification_link: "example.com"
-  } 
-}
-{% endcapture %}
-{% capture json %}
-{
-  "create_proposal": {
-    "proposal_type": {
-      "message": {
-          "contract_addr": "[proposal vote address]",
-          "message": "[base64 encoded message]",
-        }
-      }
-    },
-    "emergency": true,
-    "justification_link": "example.com"
-  }
-}
-{% endcapture %}
-
-{% include message_execute_info.html description=description key=key object=object json=json %}
-
-
 ### Create Parameter Proposal
 {% capture description %}
 Creates a parameter proposal. 
 {% endcapture %}
 {% capture key %}
-Create Parameter Proposal
+parameter
 {% endcapture %}
 {% capture object %}
 { 
@@ -178,8 +138,7 @@ Create Parameter Proposal
           "name": "GovernanceVoteLength", 
           "change": {
             "change": {
-                "value": "400",
-            }
+                "value": "400"
           }
         }  
       }
@@ -198,30 +157,32 @@ Create Parameter Proposal
 Adds a new address to the whitelist with specified roles.
 {% endcapture %}
 {% capture key %}
-Create Address Whitelist Proposal
+address_whitelist
 {% endcapture %}
 {% capture object %}
-{ 
+{
   create_proposal: {
     proposal_type: {
       address_whitelist: {
-          address: "[New address]",
-          change: {
-                  new: {
-                      name: "Developer_name",
-                      image_link: "www.example.com",
-                      roles: [
-                          "developer",
-                          "booster"
-                        ],
-                      links: ["https://github.com/example-user-account"],
-                  }
+        address: "[New address]",
+        change: {
+          new: {
+            name: "Developer_name",
+            image_link: "www.example.com",
+            roles: [
+              "developer",
+              "booster"
+            ],
+            links: [
+              "https://github.com/example-user-account"
+            ]
           }
+        }
       }
     },
     emergency: false,
     justification_link: "example.com"
-  } 
+  }
 }
 {% endcapture %}
 {% capture json %}
@@ -238,11 +199,10 @@ Create Address Whitelist Proposal
                           "developer",
                           "booster"
                         ],
-                        "links": ["https://github.com/example-user-account"],
+                        "links": ["https://github.com/example-user-account"]
                     }
             }
         }
-      }
     },
     "emergency": false,
     "justification_link": "example.com"
@@ -258,14 +218,14 @@ Create Address Whitelist Proposal
 Adds a token to the whitelist. This is necessary before a vault proposal can be instatiated.
 {% endcapture %}
 {% capture key %}
-Create Token Whitelist Proposal
+token_whitelist
 {% endcapture %}
 {% capture object %}
 { 
   create_proposal: {
     proposal_type: {
         token_whitelist: {
-            token: [YFD_address],
+            token: "[YFD_address]",
             change: {
                 new: {
                     name: "YFD",
@@ -286,7 +246,7 @@ Create Token Whitelist Proposal
   "create_proposal": {
     "proposal_type": {
       "token_whitelist": {
-        "token": [YFD_address],
+        "token": "[YFD_address]",
         "change": {
           "new": {
             "name": "YFD",
@@ -311,7 +271,7 @@ Create Token Whitelist Proposal
 Create a proposal to stop a vault proposal. The proposal ID can be queried with all_proposals. 
 {% endcapture %}
 {% capture key %}
-Create Vault Proposal Stop Proposal
+vault_proposal_stop
 {% endcapture %}
 {% capture object %}
 {
@@ -319,7 +279,7 @@ Create Vault Proposal Stop Proposal
     proposal_type: {
       vault_proposal_stop: {
         vault_proposal_idx: "1"
-      },
+      }
     },
     emergency: true,
     justification_link: "[link to IPFS or url]"
@@ -332,57 +292,10 @@ Create Vault Proposal Stop Proposal
     "proposal_type": {
       "vault_proposal_stop": {
         "vault_proposal_idx": "1"
+      }
     },
     "emergency": true,
     "justification_link": "[link to IPFS or url]"
-  }
-}
-{% endcapture %}
-
-{% include message_execute_info.html description=description key=key object=object json=json %}
-
-
-### Create Vault Release Proposal
-{% capture description %}
-
-{% endcapture %}
-{% capture key %}
-Create Vault Release Proposal
-{% endcapture %}
-{% capture object %}
-{ 
-  create_proposal: {
-    proposal_type: {
-      vault_release: {
-        proposal_id: "1",
-        github_commit: "www.github.com",
-        code_hash: "code hash string",
-        instatiate_msg: encodeBase64({
-                    claim_contract: "[claim contract address]",
-                    proposal_id: "1",
-                    fund_addr: "[YFD token address]"      
-        })
-      }
-    },
-    emergency: true,
-    justification_link: "example.com"
-  } 
-}
-{% endcapture %}
-{% capture json %}
-{
-  "create_proposal": {
-    "proposal_type": {
-        "vault_release": {
-            "proposal_id": "1",
-            "github_commit": "www.github.com",
-            "code_hash": "code hash string",
-            "instatiate_msg": "[base64 encoded message]"
-          }
-      }
-    },
-    "emergency": true,
-    "justification_link": "example.com"
   }
 }
 {% endcapture %}
@@ -395,7 +308,7 @@ Create Vault Release Proposal
 
 {% endcapture %}
 {% capture key %}
-Create Vault Liquidate Proposal
+vault_liquidate
 {% endcapture %}
 {% capture object %}
 { 
@@ -416,7 +329,6 @@ Create Vault Liquidate Proposal
     "proposal_type": {
         "vault_liquidate": {
           "vault_address": "[vault address]"
-        }
       }
     },
     "emergency": true,
@@ -433,7 +345,7 @@ Create Vault Liquidate Proposal
 
 {% endcapture %}
 {% capture key %}
-Create Text Proposal
+text
 {% endcapture %}
 {% capture object %}
 { 
@@ -455,7 +367,6 @@ Create Text Proposal
       "text": {
             "text": "This is a text vault proposal test"
           }
-      }
     },
     "emergency": false,
     "justification_link": "example.com"
@@ -471,7 +382,7 @@ Create Text Proposal
 Finalize a proposal using proposal index number from all_proposals query. 
 {% endcapture %}
 {% capture key %}
-Finalize Proposal
+finalize_proposal
 {% endcapture %}
 {% capture object %}
 {
@@ -496,7 +407,7 @@ Finalize Proposal
 Claim YFD previously deposited into the Forge using the index number from balance_detail query. 
 {% endcapture %}
 {% capture key %}
-Claim YFD
+claim
 {% endcapture %}
 {% capture object %}
 {
