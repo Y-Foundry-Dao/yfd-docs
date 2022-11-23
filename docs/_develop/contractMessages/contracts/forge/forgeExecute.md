@@ -65,13 +65,13 @@ create_vault_proposal
         contact: [
             "nobody@www.example.com"
         ],
-        developer: user.key.accAddress,
+        developer: "[developer address]",
         development_cost: "67000",
-        funding_denomination: yfdToken,
+        funding_only: false,
+        funding_denomination: "[YFD token]",
         nft_quantity: 100,
         statement_of_work: "www.example.com",
-        developer_initial_payment: "0",
-        payment_schedule: 1,
+        num_payments: 3,
         payment_frequency: 10000,
         github: "www.example.com",
         self_vouched_information: "www.example.com",
@@ -90,19 +90,19 @@ create_vault_proposal
         "proposal_url": "www.example.com",
         "tvl_limit": "1000000",
         "contact": [
-          "nobody@www.exmaple.com"
+          "nobody@www.example.com"
         ],
-        "developer": "developer address",
-        "development_cost": "6700",
-        "funding_denomination": "token",
+        "developer": "[developer address]",
+        "development_cost": "67000",
+        "funding_only": false,
+        "funding_denomination": "[YFD token]",
         "nft_quantity": 100,
         "statement_of_work": "www.example.com",
-        "developer_initial_payment": "0",
-        "payment_schedule": 1,
+        "num_payments": 3,
         "payment_frequency": 10000,
         "github": "www.example.com",
         "self_vouched_information": "www.example.com"
-      } 
+      }
     }
   }
 }
@@ -113,6 +113,45 @@ create_vault_proposal
 
 ## Create Proposal
 These create_proposal messages are executed directly on the Forge contract. In Terra Station, go to Contract, enter the Forge address in the search bar, and click Execute.
+
+### Create Message Proposal
+{% capture description %}
+Creates a message proposal. 
+{% endcapture %}
+{% capture key %}
+message
+{% endcapture %}
+{% capture object %}
+{ 
+  create_proposal: {
+    proposal_type: {
+      message: {
+        contract_addr: "[proposal vote address]",
+        message: encodeBase64({ finalize_vote: {} }),
+      }
+    },
+    emergency: true,
+    justification_link: "example.com"
+  } 
+}
+{% endcapture %}
+{% capture json %}
+{
+  "create_proposal": {
+    "proposal_type": {
+      "message": {
+          "contract_addr": "[proposal vote address]",
+          "message": "[base64 encoded message]"
+        }
+    },
+    "emergency": true,
+    "justification_link": "example.com"
+  }
+}
+{% endcapture %}
+
+{% include message_execute_info.html description=description key=key object=object json=json %}
+
 
 ### Create Parameter Proposal
 {% capture description %}
@@ -182,9 +221,13 @@ address_whitelist
               "developer",
               "booster"
             ],
-            links: [
-              "https://github.com/example-user-account"
-            ]
+            links: {
+              github: "https://github.com/example-user-account",
+              keybase: "",
+              telegram: "",
+              twitter: "",
+              url: "",
+            }
           }
         }
       }
@@ -208,7 +251,13 @@ address_whitelist
               "developer",
               "booster"
             ],
-            "links": ["https://github.com/example-user-account"]
+            "links": {
+              "github": "https://github.com/example-user-account",
+              "keybase": "",
+              "telegram": "",
+              "twitter": "",
+              "url": ""
+            }
           }
         }
       }
@@ -241,6 +290,7 @@ token_whitelist
             asset_type: "cw20",
             stable: false,
             oracle_address: "",
+            token_to_usd: "0.01",
           }
         }
       }
@@ -262,6 +312,7 @@ token_whitelist
             "asset_type": "cw20",
             "stable": false,
             "oracle_address": ""
+            "toten_to_usd": "0.01"
           }
         }
       }

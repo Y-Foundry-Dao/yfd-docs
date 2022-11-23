@@ -98,27 +98,36 @@ pay_developer
 
 ## Mint NFT
 {% capture description %}
-Execute to mint NFTs.
+Execute to mint NFTs. 
 {% endcapture %}
 {% capture key %}
 mint_nft
 {% endcapture %}
 {% capture object %}
 {
-  mint_nft: {}
+  mint_nft: {
+    metadata: {
+      strategist_uri: "ifps.example.com/strategist.json",
+      booster_uri: "ifps.example.com/booster.json",
+      treasury_uri: "ifps.example.com/treasury.json",
+    }
+  }
 }
 {% endcapture %}
 {% capture json %}
 {
-  "mint_nft": {}
+  "mint_nft": {
+    "metadata": {
+      "strategist_uri": "ifps.example.com/strategist.json",
+      "booster_uri": "ifps.example.com/booster.json",
+      "treasury_uri": "ifps.example.com/treasury.json",
+    }
+  }
 }
-{% endcapture %}
-
-{% include message_execute_info.html description=description key=key object=object json=json %}
 
 ## Claim Stake
 {% capture description %}
-Execute to claim stakes.
+Execute to claim stakes once proposal voting ended and it failed. 
 {% endcapture %}
 {% capture key %}
 claim_stake
