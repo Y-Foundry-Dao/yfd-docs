@@ -13,6 +13,15 @@ WIP
 
 # Forge Contract Executes
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Stake YFD
 {% capture description %}
 Deposits YFD in Forge. The below JSON should be base64 encoded and included in the "msg" field of a YFD execute send message. The YFD contract will execute the stake message on the Forge. 
@@ -47,28 +56,28 @@ create_vault_proposal
 {% capture object %}
 {
   create_vault_proposal: {
-        msg: {
-            proposal_info: {
-                name: "Foo_name",
-                ticker: "TEST",
-                proposal_url: "www.example.com",
-                tvl_limit: "1000000",
-                contact: [
-                    "nobody@www.example.com"
-                ],
-                developer: user.key.accAddress,
-                development_cost: "67000",
-                funding_denomination: yfdToken,
-                nft_quantity: 100,
-                statement_of_work: "www.example.com",
-                developer_initial_payment: "0",
-                payment_schedule: 1,
-                payment_frequency: 10000,
-                github: "www.example.com",
-                self_vouched_information: "www.example.com",
-            }
-        }
+    msg: {
+      proposal_info: {
+        name: "Foo_name",
+        ticker: "TEST",
+        proposal_url: "www.example.com",
+        tvl_limit: "1000000",
+        contact: [
+            "nobody@www.example.com"
+        ],
+        developer: user.key.accAddress,
+        development_cost: "67000",
+        funding_denomination: yfdToken,
+        nft_quantity: 100,
+        statement_of_work: "www.example.com",
+        developer_initial_payment: "0",
+        payment_schedule: 1,
+        payment_frequency: 10000,
+        github: "www.example.com",
+        self_vouched_information: "www.example.com",
+      }
     }
+  }
 }
 {% endcapture %}
 {% capture json %}
@@ -103,7 +112,7 @@ create_vault_proposal
 
 
 ## Create Proposal
-These create_proposal messages are executed directly on the Forge contract. In Terra Station, go to Contract, enter the Forge address in the search bar, and click "Execute."
+These create_proposal messages are executed directly on the Forge contract. In Terra Station, go to Contract, enter the Forge address in the search bar, and click Execute.
 
 ### Create Parameter Proposal
 {% capture description %}
@@ -116,13 +125,13 @@ parameter
 { 
   create_proposal: {
     proposal_type: {
-      parameter: {
-          name: "GovernanceVoteLength", 
+    parameter: {
+        name: "GovernanceVoteLength", 
+        change: {
           change: {
-              change: {
-                  value: "400",
-              }
+              value: "400",
           }
+        }
       }
     },
     emergency: true,
@@ -138,7 +147,7 @@ parameter
           "name": "GovernanceVoteLength", 
           "change": {
             "change": {
-                "value": "400"
+              "value": "400"
           }
         }  
       }
@@ -190,19 +199,19 @@ address_whitelist
   "create_proposal": {
     "proposal_type": {
       "address_whitelist": {
-            "address": "[New address]",
-            "change": {
-                    "new": {
-                        "name": "Developer_name",
-                        "image_link": "www.example.com",
-                        "roles": [
-                          "developer",
-                          "booster"
-                        ],
-                        "links": ["https://github.com/example-user-account"]
-                    }
-            }
+        "address": "[New address]",
+        "change": {
+          "new": {
+            "name": "Developer_name",
+            "image_link": "www.example.com",
+            "roles": [
+              "developer",
+              "booster"
+            ],
+            "links": ["https://github.com/example-user-account"]
+          }
         }
+      }
     },
     "emergency": false,
     "justification_link": "example.com"
@@ -224,17 +233,17 @@ token_whitelist
 { 
   create_proposal: {
     proposal_type: {
-        token_whitelist: {
-            token: "[YFD_address]",
-            change: {
-                new: {
-                    name: "YFD",
-                    asset_type: "cw20",
-                    stable: false,
-                    oracle_address: "",
-                }
-            }
+      token_whitelist: {
+        token: "[YFD_address]",
+        change: {
+          new: {
+            name: "YFD",
+            asset_type: "cw20",
+            stable: false,
+            oracle_address: "",
+          }
         }
+      }
     },
     emergency: true,
     justification_link: "example.com"
@@ -352,8 +361,8 @@ text
   create_proposal: {
     proposal_type: {
        text: {
-            text: "This is a text vault proposal test"
-          }
+        text: "This is a text vault proposal test"
+      }
     },
     emergency: false,
     justification_link: "example.com"
@@ -365,11 +374,50 @@ text
   "create_proposal": {
     "proposal_type": {
       "text": {
-            "text": "This is a text vault proposal test"
-          }
+        "text": "This is a text vault proposal test"
+      }
     },
     "emergency": false,
     "justification_link": "example.com"
+  }
+}
+{% endcapture %}
+
+{% include message_execute_info.html description=description key=key object=object json=json %}
+
+
+### Create Vault Migrate Proposal
+{% capture description %}
+
+{% endcapture %}
+{% capture key %}
+vault_migrate
+{% endcapture %}
+{% capture object %}
+{
+  create_proposal: {
+      proposal_type: {
+        vault_migrate: {
+          vault_index: "1",
+          new_code_id: "[new vault code Id]",
+        },
+      },
+      emergency: true,
+      justification_link: "String"
+  } 
+}
+{% endcapture %}
+{% capture json %}
+{
+  "create_proposal": {
+    "proposal_type": {
+      "vault_migrate": {
+        "vault_index": "1",
+        "new_code_id": "[new vault code Id]"
+      }
+    },
+    "emergency": true,
+    "justification_link": "String"
   }
 }
 {% endcapture %}

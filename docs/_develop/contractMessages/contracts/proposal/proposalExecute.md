@@ -13,6 +13,15 @@ WIP
 
 # Proposal Contract Executes
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Fund Proposal
 {% capture description %}
 Execute this command on the YFD contract address to fund a proposal. The YFD contract will then execute the funding message on the proposal contract. 
@@ -23,11 +32,11 @@ send
 {% capture object %}
 {
   send: {
-      contract: "[proposal_address]",
-      amount: "[amount]",
-      msg: encodeBase64({ 
-          stake: {} 
-        })
+    contract: "[proposal_address]",
+    amount: "[amount]",
+    msg: encodeBase64({ 
+      stake: {} 
+    })
   }
 }
 {% endcapture %}
@@ -52,7 +61,7 @@ finalize_proposal
 {% endcapture %}
 {% capture object %}
 {
-  finalize_proposal: { } 
+  finalize_proposal: {} 
 }
 {% endcapture %}
 {% capture json %}

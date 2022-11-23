@@ -13,6 +13,15 @@ WIP
 
 # Vault Proposal Contract Executes
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## Fund Proposal
 {% capture description %}
 Execute this command on the YFD contract address to fund a proposal. The YFD contract will then execute the funding message on the proposal contract. 
@@ -23,11 +32,11 @@ send
 {% capture object %}
 {
   send: {
-      contract: "[proposal_address]",
-      amount: "[amount]",
-      msg: encodeBase64({ 
-          stake: {} 
-        })
+    contract: "[proposal_address]",
+    amount: "[amount]",
+    msg: encodeBase64({ 
+      stake: {} 
+    })
   }
 }
 {% endcapture %}
@@ -145,6 +154,42 @@ emergency_cancel
 {
   "emergency_cancel": {
     "with_penalty": true
+  }
+}
+{% endcapture %}
+
+{% include message_execute_info.html description=description key=key object=object json=json %}
+
+## Release Vault
+{% capture description %}
+Execute to deploy vault. 
+{% endcapture %}
+{% capture key %}
+release_vault
+{% endcapture %}
+{% capture object %}
+{
+  release_vault: {
+    github_commit: "www.github.com",
+    code_hash: "nothing here",
+    code_id: "[stub vault address]",
+    instantiate_msg: encodeBase64({
+      claim_contract: "[claim contract address]",
+      proposal_id: "[vault proposal index]",
+      fund_addr: "[YFD token address]",
+    }),
+    justification_link: "example.com",
+  },
+}
+{% endcapture %}
+{% capture json %}
+{
+  "release_vault": {
+    "github_commit": "www.github.com",
+    "code_hash": "nothing here",
+    "code_id": "[stub vault address]",
+    "instantiate_msg": "[base 64 encoded message]",
+    "justification_link": "example.com"
   }
 }
 {% endcapture %}

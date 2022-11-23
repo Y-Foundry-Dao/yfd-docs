@@ -12,6 +12,16 @@ WIP
 {: .label .label-blue}
 
 # Vote Contract Executes
+
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 In Terra Station go to Contract, enter the vote contract address, enter one of the following messages, and click Execute. You can use the proposal_state query on the proposal contract to get the address of the vote contract. 
 
 ## Vote Affirm
