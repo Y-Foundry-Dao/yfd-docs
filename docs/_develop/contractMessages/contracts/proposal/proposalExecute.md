@@ -124,6 +124,9 @@ mint_nft
     }
   }
 }
+{% endcapture %}
+
+{% include message_execute_info.html description=description key=key object=object json=json %}
 
 ## Claim Stake
 {% capture description %}
