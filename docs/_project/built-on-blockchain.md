@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Build On Blockchain
+title: Built On Blockchain
 nav_order: 10
 has_children: false
+last_modified_date: 2022-11-28
 ---
 
-Built on the blockchain
+Built on the Blockchain
 =======================
 
 The Internet is going through a transformation, a true revolution enabled by a single piece of technology --- blockchain. Blockchain means distributed ownership. Its records are immutable, irrevocable, and cryptographically signed. By nature, it eliminates the potential for any single entity to curate, moderate, prioritize, or filter the data in a blockchain.
