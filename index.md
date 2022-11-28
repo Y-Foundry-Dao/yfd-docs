@@ -1,27 +1,46 @@
 ---
-title: 🌈 Welcome
+title: Y-Foundry
 layout: default
-has_children: true
+has_children: false
 nav_order: 0
 has_toc: true
 last_modified_date: 2022-10-31
 ---
+![](assets/images/banner.gif)
 
-# Welcome to Y-Foundry DAO
+Y-Foundry
+=========
 
-Y-Foundry Document Library 
+Y-Foundry is a platform connecting community with creators to propose, vote, and build their ideas.
 
-## Welcome
+**Developed by the community.**
 
-The future of the blockchain is built by the community. Y-Foundry DAO is a platform enabling those with ideas to connect, ideate, fund, develop, and launch the community-owned crypto projects of tomorrow.
+**Owned by the community.**
 
-Y-Foundry DAO leverages smart contracts and NFTs in novel ways to enable:
-1. Democratized access to talented builders that have been whitelisted by the community.
-2. Secure mechanisms for automated project funding once delivery milestones are met.
-3. Auditable, trustless execution of projects without human intervention.
-4. A community with a vested long-term interest in protecting the marketplace.
+![](assets/images/figure/bounty-reputation.png)
 
-## This is a living set of documents.  
+### What YFD does
 
-The purpose is to inform those curious about Y-Foundry DAO on how the protocol works and its various capabilities and mechanisms for interaction.
+The DAO structure supports in-depth community involvement and a culture of inclusivity. Y-Foundry encourages its entire community to get involved and contribute to the decision-making and development process of all projects under the Y-Foundry banner.
 
+Y-Foundry DAO enables users to:
+
+-   Launch vaults that automate DeFi strategies such as auto-compounding, arbitrage, or hedging.
+
+-   Fund other users' vault ideas, claiming a portion of the fees earned.
+
+-   Discover and complete interesting tasks, earn reputation, and build a Web3 portfolio.
+
+-   Work for projects paid for by the community, with payments guaranteed by smart contracts.
+
+### How YFD does it
+
+With in-depth crypto knowledge and a deep understanding of Web3, the Y-Foundry DAO community leverages smart contracts and NFTs in novel ways, enabling:
+
+-   Access to talented builders whitelisted by the community.
+
+-   Secure mechanisms for project funding, and escrowed payment to developers based on milestones.
+
+-   Auditable, trustless completion and deployment of smart contracts, without priveleged access.
+
+-   A community with a vested long-term interest in the health of the project.
