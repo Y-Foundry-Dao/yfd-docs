@@ -44,6 +44,7 @@ If you have an idea the Y-Foundry platform and community can help make it a real
     - Releasing an NFT collection
     - Building a dApp
     - Funding a charitable idea
+    - Creating grants for open-source development
     - Starting an off-chain business
 - Fund ideas and share in the success of the project. Discover and complete interesting tasks to earn reputation points.
 - Work on projects funded and supported by the community with payment guaranteed by smart contracts.
