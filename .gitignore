@@ -6,3 +6,5 @@ _site/
 .bundle/
 vendor/
 .devcontainer/
+:Zone.Identifier
+*:Zone.Identifier
