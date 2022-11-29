@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Build On Blockchain
+title: Built On Blockchain
 nav_order: 10
 has_children: false
+last_modified_date: 2022-11-28
 ---
 
-Built on the blockchain
+Built on the Blockchain
 =======================
 
 The Internet is going through a transformation, a true revolution enabled by a single piece of technology --- blockchain. Through transparent interactions and verifiable data, blockchain technology creates a system of trustless coordination eliminating the need for a central authority.
