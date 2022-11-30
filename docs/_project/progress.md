@@ -9,7 +9,7 @@ last_modified_date: 2022-11-28
 Progress
 =======
 
-Below you will find more details on YFD's future plans, milestones reached and current objectives.
+Below you will find more details on YFD's milestones reached and current objectives.
 
 ![](/assets/images/figure/progress.png)
 
@@ -38,11 +38,4 @@ Below you will find more details on YFD's future plans, milestones reached and c
 
 [  ]   Q4: UI/UX
 
-2023:
---------------------------------------------------------------------------------
-
-[ ]   Q1: TBD
-
-[ ]   Q2: TBD
-
-[ ]   Q3
+[  ]   Q4: MVP Launch!

@@ -23,7 +23,7 @@ The Y-Foundry token information:
 
 ### Distribution
 
-The $YFD token distribution can be seen in the table below. Second to the [DAO Treasury](/project/finances/dao-treasury/), 23% of the token supply goes toward Genesis Contributors and Investors, with 6.9% going toward Airdrops.
+The $YFD token distribution can be seen in the table below. Second to the [DAO Treasury](/project/dao-treasury/), 23% of the token supply goes toward Genesis Contributors and Investors, with 6.9% going toward Airdrops.
 
 ![](/assets/images/chart/yfd-distribution.png)
 
