@@ -38,5 +38,5 @@ If you have an idea the Y-Foundry platform and community can help make it a real
 We are here to answer any questions you may have and support your journey from idea to reality. Join the Y-Foundry DAO and build the community-supported projects of the future!
 
 Find us here:
-- Discord https://discord.gg/yfd
-- Twitter https://twitter.com/YFoundryDAO
+- Discord [https://discord.gg/yfd](https://discord.gg/yfd)
+- Twitter [https://twitter.com/YFoundryDAO](https://twitter.com/YFoundryDAO)
