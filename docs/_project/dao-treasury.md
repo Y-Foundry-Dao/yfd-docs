@@ -9,14 +9,12 @@ last_modified_date: 2022-11-28
 DAO Treasury
 ============
 
-The majority of the DAO's tokens are held in a multi-signature wallet post-TGE.
-This is a smart contract that require the agreement of five of the nine (signers) to perform an action. 
+### Forge Contract = DAO Treasury
 
-Multiple private keys held by members of the community are required to execute any transaction using the contract.
+The Forge is seeded with $YFD which can be accessed using an on-chain governance *Spend* proposal.
 
-The Treasury Multi-sig is useful for protecting assets (through separation of duties) and helps ensure that certain actions are only taken in accordance with will of the signers.
-
-For more information on this, please read [Proposals]().
+{: .note }
+For MVP the Forge is back-stopped with an on-chain 5 of 9 signer multi-signature wallet holding the majority of the $YFD tokens. The majority of the DAO's tokens are held in this multi-signature wallet post-TGE. This is a smart contract that requires the agreement of five of the nine (signers) to perform an action. The Treasury Multi-sig serves as a useful stopgap to ensure the healthy operation of the platform through MVP launch prior to moving all funds to the DAO treasury.
 
 ### Multi-Sig Signers
 
@@ -32,9 +30,3 @@ For more information on this, please read [Proposals]().
 | Signer 8 |    |
 | Signer 9 |    |
 
-
-### Forge Contract = DAO Treasury
-
-The Forge is seeded with $YFD which can be accessed using an on-chain governance *Spend* proposal.
-
-For MVP the Forge is back-stopped with an on-chain 5 of 9 signer multi-signature wallet holding the majority of the $YFD tokens.
