@@ -2,7 +2,7 @@
 layout: default
 title: 🖼️ Profit Sharing NFT
 nav_order: 20
-parent: Vault Lifecycles
+parent: Creating Vaults
 has_children: false
 last_modified_date: 2022-11-05
 ---

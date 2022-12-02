@@ -1,41 +1,42 @@
 ---
-title: 🌈 Welcome
+title: Welcome
 layout: default
-has_children: true
+has_children: false
 nav_order: 0
-has_toc: true
-last_modified_date: 2022-10-31
+has_toc: false
+last_modified_date: 2022-12-01
 ---
+![](assets/images/banner.gif)
 
-# Welcome to Y-Foundry DAO
+Y-Foundry
+=========
 
-Y-Foundry Document Library 
+Introducing Y-Foundry!
 
-## Welcome
+Y-Foundry is a platform connecting the community with creators to propose, vote, and build their ideas.
 
-Propose. Vote. Build.
+**Developed by the community.**
 
-Y-Foundry DAO is a community-run funding platform enabling those with ideas to connect, ideate, fund, develop, and launch the community-owned crypto projects of tomorrow.
+**Owned by the community.**
 
-With YFD, you can:
-1. Launch vaults that automate strategies that use assets in Defi, such as auto-compounding, arbitrage, or hedging.
-2. Become a backer of other users' vault ideas, claiming a portion of the fees earned.
-3. Take on interesting tasks, earn reputation, and build a portfolio of experience in Web3.
-4. Work for projects paid for by the community, with payments guaranteed by smart contracts.
+Bringing an idea to market requires massive amounts of effort to coordinate developers, creators, and capital. Y-Foundry seeks to provide creators with the means to connect with the community and launch their projects. Anyone with a great idea can propose it to the Y-Foundry DAO, receive support to expand on their ideas, and find additional resources within the community. Y-Foundry enables creators and developers to connect, ideate, fund, and build the community-owned crypto projects of tomorrow.
 
-YFD is home a variety of community participants:
-1. Voters: Providing community oversight on proposals, vaults, emergency actions, and whitelisting for treasury payments, protecting against misuse of the protocol from malicious actors.
-2. Backers: Evaluates fund-able proposals and provides the support they need to go live. Once a proposal is funded, backers oversee development and signs off on each milestone payment.
-3. Strategists: Brings ideas to the table, gets funding from community backers. Helps grow the product offerings of the protocol with the most innovative and resilient strategies over time.
-4. Builders: Developers, creatives, and all kinds of contributors help build YFD from the ground up with skills and expertise from all levels.
+### What can I do on Y-Foundry?
 
-Y-Foundry DAO leverages smart contracts and NFTs in novel ways to enable:
-1. Democratized access to talented builders that have been whitelisted by the community.
-2. Secure mechanisms for automated project funding once delivery milestones are met.
-3. Auditable, trustless execution of projects without human intervention.
-4. A community with a vested long-term interest in protecting the marketplace.
+If you have an idea, the Y-Foundry platform and community can help make it a reality.
 
-## This is a living set of documents.  
+- Launch initiatives like:
+    - Automating DeFi strategies such as auto-compounding, arbitrage, or hedging
+    - Releasing an NFT collection
+    - Building a dApp
+    - Funding a charitable idea
+    - Creating grants for open-source development
+    - Starting an off-chain business
+- Fund ideas and share in the success of the project. Discover and complete interesting tasks to earn reputation points.
+- Work on projects funded and supported by the community with payment guaranteed by smart contracts.
 
-The purpose is to inform those curious about Y-Foundry DAO on how the protocol works and its various capabilities and mechanisms for interaction.
+The Y-Foundry DAO community is here to answer any questions you may have and support your journey from idea to reality. Join the Y-Foundry DAO and build the community-supported projects of the future!
 
+Find us here:
+- Discord [https://discord.gg/yfd](https://discord.gg/yfd)
+- Twitter [https://twitter.com/YFoundryDAO](https://twitter.com/YFoundryDAO)

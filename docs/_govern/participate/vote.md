@@ -2,7 +2,6 @@
 layout: default
 title: 🗳️ Vote
 nav_order: 3
-parent: Participate (fYFD)
 has_children: false
 last_modified_date: 2022-10-27
 ---

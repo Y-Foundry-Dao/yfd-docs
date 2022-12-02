@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Vault Lifecycles
+title: Creating Vaults
 nav_order: 5
 has_children: true
-last_modified_date: 2022-11-05
+last_modified_date: 2022-12-01
 ---
 
 # 🏦 Vaults

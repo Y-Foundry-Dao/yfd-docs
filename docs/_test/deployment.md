@@ -14,6 +14,8 @@ WIP
 The strength of a community lies with its resiliance which is built through testing.
 
 
-| Name        | Network          | Deployment Date |
-|:-------------|:------------------|:------|
-| Terra 2           | `pisco-1` | July 2022  |
+| Name        | Network       | Initial Deployment | Version       | Last Update |
+|:------------|:--------------|:-------------------|:--------------|:------------|
+| Terra 2     | `pisco-1`     | July 2022          |  v1.0.0-audit | Nov 30 2022 |
+
+```
