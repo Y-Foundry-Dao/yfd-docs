@@ -4,6 +4,7 @@ title: Setup YFD Docs
 nav_order: 5
 has_children: false
 parent: Work Locally
+grand_parent: Contribute
 last_modified_date: 2022-10-31
 ---
 

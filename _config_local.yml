@@ -78,13 +78,10 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 # Define Jekyll collections
 collections_dir: docs
 collections:
-  contribute:
-    permalink: "/:collection/:path/"
-    output: false
-  onboarding:
+  onboard:
     permalink: "/:collection/:path/"
     output: true
-  learn:
+  yfoundry:
     permalink: "/:collection/:path/"
     output: true
   govern:
@@ -96,15 +93,6 @@ collections:
   test:
     permalink: "/:collection/:path/"
     output: true
-  vaults:
-    permalink: "/:collection/:path/"
-    output: false
-  tokenomics:
-    permalink: "/:collection/:path/"
-    output: false
-  project:
-    permalink: "/:collection/:path/"
-    output: false
   essentials:
     permalink: "/:collection/:path/"
     output: true
@@ -120,12 +108,12 @@ collections:
   
 just_the_docs:
   collections:
-    onboarding:
-      name: Y-Foundry Onboarding
+    onboard:
+      name: On-boarding
       nav_exclude: false
       nav_fold: true
       search_exclude: false
-    learn:
+    yfoundry:
       name: Y-Foundry DAO
       nav_exclude: false
       nav_fold: true
