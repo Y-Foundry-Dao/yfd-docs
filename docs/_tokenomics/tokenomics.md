@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Tokenomics
-nav_order: 40
+title: Distribution
+nav_order: 100
 has_children: false
-last_modified_date: 2022-11-28
+last_modified_date: 2022-12-01
 ---
 
 Tokenomics
