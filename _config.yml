@@ -76,12 +76,15 @@ collections:
   contribute:
     permalink: "/:collection/:path/"
     output: false
+  onboarding:
+    permalink: "/:collection/:path/"
+    output: true
   learn:
     permalink: "/:collection/:path/"
-    output: false
+    output: true
   govern:
     permalink: "/:collection/:path/"
-    output: false
+    output: true
   develop:
     permalink: "/:collection/:path/"
     output: true
@@ -91,10 +94,16 @@ collections:
   vaults:
     permalink: "/:collection/:path/"
     output: false
+  tokenomics:
+    permalink: "/:collection/:path/"
+    output: false
   project:
     permalink: "/:collection/:path/"
-    output: true
+    output: false
   essentials:
+    permalink: "/:collection/:path/"
+    output: true
+  tokenomics:
     permalink: "/:collection/:path/"
     output: true
   community:
@@ -106,22 +115,28 @@ collections:
   
 just_the_docs:
   collections:
-    project:
-      name: 🤝 Project
+    onboarding:
+      name: Y-Foundry Onboarding
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    learn:
+      name: Y-Foundry DAO
       nav_exclude: false
       nav_fold: true
       search_exclude: false
     essentials:
-      # Give the collection a name
       name: 📓 Essentials
-      # Exclude the collection from the navigation
       nav_exclude: false
-      # Fold the collection in the navigation
       nav_fold: true
-      # Exclude the collection from the search
       search_exclude: false
-    community:
-      name: 🏛️ Community
+    govern:
+      name: 🏛️ Governance
+      nav_exclude: false
+      nav_fold: true
+      search_exclude: false
+    tokenomics:
+      name: Tokenomics
       nav_exclude: false
       nav_fold: true
       search_exclude: false
