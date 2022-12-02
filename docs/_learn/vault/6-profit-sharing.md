@@ -2,7 +2,7 @@
 layout: default
 title: 💸 Profit Sharing
 nav_order: 30
-parent: Vault Lifecycles
+parent: Creating Vaults
 has_children: false
 last_modified_date: 2022-11-05
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: 🔧 Maintenance
 nav_order: 35
-parent: Vault Lifecycles
+parent: Creating Vaults
 has_children: false
 last_modified_date: 2022-10-25
 ---

@@ -1,10 +1,10 @@
 ---
-title: Y-Foundry
+title: Welcome
 layout: default
 has_children: false
 nav_order: 0
-has_toc: true
-last_modified_date: 2022-10-31
+has_toc: false
+last_modified_date: 2022-12-01
 ---
 ![](assets/images/banner.gif)
 
