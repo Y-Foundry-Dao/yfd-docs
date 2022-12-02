@@ -2,6 +2,7 @@
 layout: default
 title: Markdown Examples
 nav_order: 50
+parent: Contribute
 last_modified_date: 2022-11-05
 ---
 

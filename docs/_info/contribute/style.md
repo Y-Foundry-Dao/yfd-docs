@@ -2,6 +2,7 @@
 layout: default
 title: Writing Style Guide
 nav_order: 25
+parent: Contribute
 last_modified_date: 2022-10-31
 ---
 

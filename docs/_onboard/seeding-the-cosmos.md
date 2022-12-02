@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Seeding the Cosmos
+parent: Welcome
 nav_order: 15
 has_children: false
 last_modified_date: 2022-12-01
