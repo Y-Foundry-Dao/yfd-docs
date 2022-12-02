@@ -21,6 +21,9 @@ The Y-Foundry token information:
 
 -   Total supply - 2,000,000,000
 
+{: .note }
+CONTRACT ADDRESS
+
 ### Distribution
 
 The $YFD token distribution can be seen in the table below. Second to the [DAO Treasury](/project/dao-treasury/), 23% of the token supply goes toward Genesis Contributors and Investors, with 6.9% going toward Airdrops.
