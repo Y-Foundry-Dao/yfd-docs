@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Image & File Conventions
+parent: Contribute
 nav_order: 30
 last_modified_date: 2022-11-13
 ---

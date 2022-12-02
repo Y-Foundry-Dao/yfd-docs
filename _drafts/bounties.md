@@ -2,6 +2,7 @@
 layout: default
 title: Bounties
 nav_order: 20
+parent: Contribute
 has_children: false
 last_modified_date: 2022-10-30
 ---
