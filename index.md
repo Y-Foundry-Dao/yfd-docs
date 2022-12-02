@@ -23,6 +23,12 @@ With YFD, you can:
 3. Take on interesting tasks, earn reputation, and build a portfolio of experience in Web3.
 4. Work for projects paid for by the community, with payments guaranteed by smart contracts.
 
+YFD is home a variety of community participants:
+1. Voters: Providing community oversight on proposals, vaults, emergency actions, and whitelisting for treasury payments, protecting against misuse of the protocol from malicious actors.
+2. Backers: Evaluates fund-able proposals and provides the support they need to go live. Once a proposal is funded, backers oversee development and signs off on each milestone payment.
+3. Strategists: Brings ideas to the table, gets funding from community backers. Helps grow the product offerings of the protocol with the most innovative and resilient strategies over time.
+4. Builders: Developers, creatives, and all kinds of contributors help build YFD from the ground up with skills and expertise from all levels.
+
 Y-Foundry DAO leverages smart contracts and NFTs in novel ways to enable:
 1. Democratized access to talented builders that have been whitelisted by the community.
 2. Secure mechanisms for automated project funding once delivery milestones are met.
