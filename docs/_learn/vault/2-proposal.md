@@ -9,6 +9,9 @@ last_modified_date: 2022-10-25
 
 # ✍️ Proposal Process
 
+Create the official proposal on the Y-Foundry platform.
+
+
 ![Vault Proposal Process](/assets/images/learn/about/proposal-vault.png)
 
 

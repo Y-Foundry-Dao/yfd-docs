@@ -9,7 +9,14 @@ last_modified_date: 2022-10-25
 
 # 💡Strategy Development
 
-Bring your ideas to the Y-Foundry DAO community to get guidance on developing a successful proposal.
+A proposer with a vault idea gets connected to the Y-Foundry DAO community to receive guidance on developing the proposal. 
+
+The Y-Foundry platform is flexible enough to accommodate a broad range of initiatives. Although each idea may be unique, the process to get started is the same. 
+
+The proposer
+- Develops the prospectus with the assistance of the Y-Foundry DAO community
+- Gets connected with whitelisted developers ready to build the project
+
 
 {: .important }
 > This part of the process is _Off-chain for MVP_
