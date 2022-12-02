@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Proposal Execute
-parent: Proposal Messages
+title: Vault Proposal Execute
+parent: Vault Proposal Messages
 grand_parent: Contract Messages
 has_children: false
 has_toc: false
@@ -11,7 +11,7 @@ nav_order: 2
 WIP
 {: .label .label-blue}
 
-# Proposal Contract Executes
+# Vault Proposal Contract Executes
 
 <details markdown="block">
   <summary>
@@ -98,7 +98,7 @@ pay_developer
 
 ## Mint NFT
 {% capture description %}
-Execute to mint NFTs. 
+Execute to mint NFTs.
 {% endcapture %}
 {% capture key %}
 mint_nft
@@ -166,6 +166,42 @@ emergency_cancel
 {
   "emergency_cancel": {
     "with_penalty": true
+  }
+}
+{% endcapture %}
+
+{% include message_execute_info.html description=description key=key object=object json=json %}
+
+## Release Vault
+{% capture description %}
+Execute to deploy vault. 
+{% endcapture %}
+{% capture key %}
+release_vault
+{% endcapture %}
+{% capture object %}
+{
+  release_vault: {
+    github_commit: "www.github.com",
+    code_hash: "nothing here",
+    code_id: "[stub vault address]",
+    instantiate_msg: encodeBase64({
+      claim_contract: "[claim contract address]",
+      proposal_id: "[vault proposal index]",
+      fund_addr: "[YFD token address]",
+    }),
+    justification_link: "example.com",
+  },
+}
+{% endcapture %}
+{% capture json %}
+{
+  "release_vault": {
+    "github_commit": "www.github.com",
+    "code_hash": "nothing here",
+    "code_id": "[stub vault address]",
+    "instantiate_msg": "[base 64 encoded message]",
+    "justification_link": "example.com"
   }
 }
 {% endcapture %}
