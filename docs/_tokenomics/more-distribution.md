@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Tokenomics
-nav_order: 30
+title: More Distribution
+nav_order: 110
 has_children: false
 
 ---
