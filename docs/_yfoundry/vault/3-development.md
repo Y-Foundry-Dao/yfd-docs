@@ -10,6 +10,8 @@ last_modified_date: 2022-10-25
 # 💻 Development Process 
 _(post-approval)_
 
+***
+
 Once a project vault has been fully funded and all development milestones have been locked in, development on the project begins.
 
 ***

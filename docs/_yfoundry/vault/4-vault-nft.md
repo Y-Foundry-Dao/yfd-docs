@@ -7,87 +7,36 @@ has_children: false
 last_modified_date: 2022-11-05
 ---
 
-## 🖼️NFT Generation for Strategist, Boosters, YFD Treasury
-
-MVP
-{: .label .label-purple }
-
-{: .note }
-> In MVP each NFT is worth an equal amount of profit sharing. 
+## 🖼️NFT Generation for Proposer, Boosters, & YFD Treasury
 
 ***
 
-### Strategist NFT
-5% (this is the default bonus for strategist) + % stablecoin contributed value based on contribution to vault funding amount
-Metadata
-Proposal #
-Strategist_address Address of first owner
-Amount of Funds Contributed
-Percentage of Performance Fee Distribution
-title    Name of the Vault
-ticker
-image    The URL linking to the NFT artwork’s image file
-animation_url    URL linking to the animation 
-royalty_amount    0
-copyright_transfer    no
-address    Token contract address on the chain
-resellable    yes
-original_creator    Y-Foundry DAO
-edition_number    1
-url    https://yfoundry.io/
-file_key    The downloadable file for the NFT
-name    Name of the artwork from NFT Artist
-edition_total    defined by amount deposited
+When the vault contract is deployed on Y-Foundry, Booster NFTs are minted. Each Booster gets NFTs representing their contribution to the project according to details stored on-chain. 
+
+These NFTs have the usual art and transferability of conventional NFTs with several unique characteristics.
+
+<br>
+
+Art | Displays image generated from the proposal specific to the project vault
+Ownership | Represents the specific details of the Booster's support for the project
+Governance | Confers potential project governance rights to the holder
+Benefits | Allows holder to claim any benefits allocated to supporters of the project
+Automation | Eliminates the potential for human interferance or corruption during claiming
+Transferability | Provides the potential to be transferred or sold in a marketplace
 
 ***
 
-### Booster NFT(s) 
-Unique Image
-Individual Booster NFT based on 67% minus the Strategist NFT %
-Metadata
-Proposal #
-Booster_address Address of first owner
-Amount of Funds Contributed
-Percentage of Performance Fee Distribution
-title    Name of the Vault
-ticker
-image    The URL linking to the NFT artwork’s image file
-animation_url    URL linking to the animation 
-royalty_amount    0
-copyright_transfer    no
-address    Token contract address on the chain
-resellable    yes
-original_creator    Y-Foundry DAO
-edition_number    1
-url    https://yfoundry.io/
-file_key    The downloadable file for the NFT
-name    Name of the artwork from NFT Artist
-edition_total    defined by amount deposited by the strategist
+### Proposer NFTs
+The Proposer will automatically receive NFT shares representing 5% of the project for proposing the vault. They also have the ability to boost their own project for additional NFTs corresponding to the amount supported.
+
+***
+
+### Booster NFTs 
+Boosters of the project will receive NFT shares proportional to their contributions. 
 
 ***
 
 ### YFD Treasury NFTs
-Unique Image
-33 NFTs that each have 1% distribution rights
-(non-technical note, for NFT graphic) Special mark on NFT to denote treasury origin, i.e. gold border, seal/badge
-Metadata
-Proposal #
-Treasury_address
-Amount of Funds Contributed
-Percentage of Performance Fee Distribution
-title    Name of the Vault
-ticker
-image    The URL linking to the NFT artwork’s image file
-animation_url    URL linking to the animation 
-royalty_amount    0
-copyright_transfer    no
-address    Token contract address on the chain
-resellable    yes
-original_creator    Y-Foundry DAO
-edition_number    1
-url    https://yfoundry.io/
-file_key    The downloadable file for the NFT
-name    Name of the artwork from NFT Artist
-edition_total    33
+The YFD treasury will receive NFT shares equivalent to 33% of the total Booster NFTs generated for the project. The YFD provides vital contributions to the success of every project. This is an investment back into the ecosystem providing benefits to the DAO, support for contributors, and resources to further develop the Y-Foundry platform. This partial ownership of any project launched on the platform provides long-term incentivizes for the community to ensure each project is a success.
 
 ***
