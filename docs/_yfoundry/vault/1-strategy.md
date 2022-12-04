@@ -9,6 +9,8 @@ last_modified_date: 2022-10-25
 
 # 💡Strategy Development
 
+***
+
 A proposer with a vault idea connects to the Y-Foundry DAO community to receive guidance on developing the proposal. A proposal is a detailed plan for the vault. It clearly includes the what, how, who, and when information needed to launch the project successfully.
 
 <br>

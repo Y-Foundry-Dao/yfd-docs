@@ -9,9 +9,13 @@ last_modified_date: 2022-10-25
 
 # ✍️ Proposal Process
 
+***
+
 A proposer submits the proposal officially through the Y-Foundry platform. This will turn all the previously documented proposal information from the idea stage into a series of on-chain instructions for launching the project vault.
 
 ***
+
+![Vault Proposal Process](/assets/images/learn/about/proposal-vault.png)
 
 Placeholder | Requirements to meet for a proposal
 
@@ -28,9 +32,9 @@ Supporters can become Boosters of a project by depositing funds in the project v
 > 
 > Vault proposals will be held in escrow contigent upon the fulfillment of development milestones.
 
-Once the vault launches, each Booster receives NFT shares representing their percentage of ownership of the vault.
+<br>
 
-![Vault Proposal Process](/assets/images/learn/about/proposal-vault.png)
+Once the vault launches, each Booster receives NFT shares representing their percentage of ownership of the vault.
 
 ## Submitting an on-chain proposal
 
@@ -43,5 +47,3 @@ Once the vault launches, each Booster receives NFT shares representing their per
 	* Approval requirements
 
 	
-WIP
-{: .label .label-blue }
