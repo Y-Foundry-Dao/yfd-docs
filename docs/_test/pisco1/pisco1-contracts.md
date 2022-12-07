@@ -11,7 +11,7 @@ WIP
 
 # Contract Addresses
 
-## Deprecated Contracts
+## Contracts
 
 | Name      | Code ID | Contract Address |
 |:----------|:--------|:------------------------------------------------------------------|
