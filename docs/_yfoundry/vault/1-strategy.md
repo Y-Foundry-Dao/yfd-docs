@@ -7,7 +7,7 @@ has_children: false
 last_modified_date: 2022-10-25
 ---
 
-# 💡Strategy Development
+# 💡 Vault Development
 
 ***
 
@@ -20,9 +20,7 @@ A proposer with a vault idea connects to the Y-Foundry DAO community to receive 
 
 <br>
 
-The proposer
-- Develops the prospectus with the assistance of the Y-Foundry DAO community
-- Gets connected with whitelisted developers ready to build the project
+The proposer gets connected with potential supporters of the vault including whitelisted developers ready to build the project.
 
 <br>
 
@@ -32,6 +30,12 @@ The proposer
 > Y-Foundry DAO utilizes a variety of tools including Dework, Github, and Discord to organize discussions and provide support for proposals.
 
 <br>
+
+Once the idea has been refined and all the details have been identified, the proposal is ready to be submitted officially on the Y-Foundry platform.
+
+<br>
+
+***
 
 ## Getting started with a vault idea
 
