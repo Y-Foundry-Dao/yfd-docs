@@ -38,5 +38,3 @@ Boosters of the project will receive NFT shares proportional to their contributi
 
 ### YFD Treasury NFTs
 The YFD treasury will receive NFT shares equivalent to 33% of the total Booster NFTs generated for the project. The YFD provides vital contributions to the success of every project. This is an investment back into the ecosystem providing benefits to the DAO, support for contributors, and resources to further develop the Y-Foundry platform. This partial ownership of any project launched on the platform provides long-term incentivizes for the community to ensure each project is a success.
-
-***

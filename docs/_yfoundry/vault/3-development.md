@@ -49,4 +49,4 @@ Once the development has been completed, the developers submit the finalized cod
 ***
 
 ### Work is completed
-The proposer and Boosters for the vault call a vote to sign off that the work has been completed. The final payment is now claimable by the project builders. The project proceeds to deploy on Y-Foundry.
+The vault proposer and Boosters call a vote to sign off that the work has been completed. The final payment is now claimable by the project builders. The project proceeds to deploy on Y-Foundry.

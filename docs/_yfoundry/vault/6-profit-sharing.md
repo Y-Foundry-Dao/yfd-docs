@@ -30,3 +30,4 @@ The claim contract is like a clearing house for the Y-Foundry platform - validat
 <br>
 
 In a trustless and automated way, this process ensures that all Booster NFT holders are able to easily collect the disbursement amount available to them.
+

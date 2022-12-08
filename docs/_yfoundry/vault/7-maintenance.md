@@ -16,4 +16,4 @@ No vault maintenance functions exist in the Y-Foundry MVP release.  Vaults opera
 
 To upgrade or perform maintenance on a vault, a new vault proposal must be submitted and new vault contracts must be deployed.
 
-
+***

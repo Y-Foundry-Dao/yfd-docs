@@ -24,3 +24,4 @@ An emergency "Vault Stop" proposal may be used to retire or decommission a vault
 > * An exploit has been discovered. This could help mitigate some of the damage while a solution is being explored.
 > 
 > * An underlying protocol has failed. The Y-Foundry DAO can call a vote to allow users to claim their deposited assets regardless of the state of external protocols.
+
