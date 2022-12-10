@@ -9,26 +9,20 @@ has_children: true
 Roles
 =====
 
-Roles represent the fundamental functionality of the Governance process. Having a certain role means holding one of the following NFTs.
 
-The NFTs are a badge of honour that represents members taking part in the Governance process. While complete functionality is yet to be revealed, the possibilities are endless. The most common use will be offering access to various features to the holders.
+***
 
-While earning a role has certain requirements, there is no limit on how many roles a member can hold, as long as the community whitelists that user for holding that specific role.
+Y-Foundry DAO is the governing community supporting the Y-Foundry ecosystem. Potential participants of the platform have the opportunity to obtain specialized roles. 
 
+Roles play an important part in the successful operation of Y-Foundry. Each role has specific requirements to obtain, responsibilities to manage, and benefits to unlock for the participant.
+
+Roles are not mutually exclusive. A single individual can have multiple roles as long as the requirements are met for each.
 ### Concept art
 
 |:-------|:--------|
 | ![](/assets/images/learn/role/strategist.png) | ![](/assets/images/learn/role/developer.png) |
 | ![](/assets/images/learn/role/voter.png) | ![](/assets/images/learn/role/booster.png) |
 
-
-This is only concept art. NFTs might change down the line.
-
-### The Strategist
-
-Strategist role is granted to community members who initiate a Proposal. They have the option to fully fund proposal, or leave the funding up to Boosters.
-
-This role stacks with other roles. A member can be a Strategist on one proposal, a Booster on another and a Voter on a few other.
 
 ### The Booster
 
