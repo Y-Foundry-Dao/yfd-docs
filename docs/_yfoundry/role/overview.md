@@ -32,10 +32,6 @@ The funding floor for a Booster is 5% of the asking amount, while offering the p
 
 Please note funding has a max limit. If that limit is reached, the Booster role cannot be acquired.
 
-### The Voter
-
-Voter role is offered to any member who takes part in the Governance vote.
-
 ### The Developer
 
 Developer role is given to the members performing the development portion of the task(s) in the proposal.
