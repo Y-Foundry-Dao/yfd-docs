@@ -29,7 +29,7 @@ The Proposer role is granted to community members who initiate a Proposal.
 The Proposer must partially fund the vault proposal. This amount a Proposer must fund is 5% of the overall cost of the vault development. This will be used for the initial payment to the builders.
 
 {: .note}
-> This not only gives the Proposer more skin in the game but also serves as a protection for Boosters wishing to fund the project. See [Development Process](../vault/3-development.md) for more details on this.
+> This not only gives the Proposer more skin in the game but also serves as a protection for Boosters wishing to fund the project. See [Development Process](../../vault/3-development/) for more details on this.
 
 A Proposer has the option to fund more than 5%. They could choose to fully fund the proposal or leave some portion of the funding available to potential Boosters.
 
@@ -41,5 +41,5 @@ Although the community will help to validate progress and test development, a Pr
 ***
 
 ## Benefits
-The Proposer unlocks the ability to use the Y-Foundry platform to bring their ideas to life. They will get Booster NFTs representing a share of the success of the proposed vault. See [NFT Generation](../vault/5-vault-nft.md) and [Profit Sharing Disbursement](../vault/6-profit-sharing.md) for more details.
+The Proposer unlocks the ability to use the Y-Foundry platform to bring their ideas to life. They will get Booster NFTs representing a share of the success of the proposed vault. See [NFT Generation](../../vault/5-vault-nft/) and [Profit Sharing Disbursement](../../vault/6-profit-sharing/) for more details.
 
