@@ -19,15 +19,18 @@ When a vote outcome receives more than 50% of the votes cast.
 
 ***
 
-### Booster/Boosting
-A person who contributes to the development costs of a vault is a Booster. The act of doing so is called Boosting. 
-
-An NFT is issued to Boosters as a record of their Boosting activity.  
+### Builder
+A person who has the Builder role. They have been whitelisted by the community to build for project vaults and the DAO.
 
 ***
 
-### Boule
+### DAO Members
 The governing body of YFD. This is made up of fYFD holders.
+
+***
+
+### Developer
+An individual who has been whitelisted by the Y-Foundry DAO to develop code on the Y-Foundry platform.
 
 ***
 
@@ -37,7 +40,7 @@ The smart contract that gives users governance powers by committing their $YFD t
 ***
 
 ### Forging Period
-The number of blocks a user’s $YFD is held by the Forge contract as fYFD before reclaimable as $YFD. The governance power of a user’s fYFD is proportionate length of the selected Forging Period multiplied by block equivalent of time it is forged for (between 2 - 104 weeks).
+The number of blocks a user’s $YFD is held by the Forge contract as fYFD before reclaimable as $YFD. The governance power of a user’s fYFD is proportionate to the length of the selected Forging Period multiplied by block equivalent of time it is forged for (between 2 - 104 weeks).
 
 ***
 
@@ -51,6 +54,11 @@ In voting, when an outcome receives more votes than any other but may not necess
 
 ***
 
+### Proposer
+A person who creates and submits a proposal on Y-Foundry.
+
+***
+
 ### Strategist
 A person who designs a strategy. They earn performance fees on any vaults that they successfully launch.
 
@@ -58,6 +66,13 @@ A person who designs a strategy. They earn performance fees on any vaults that t
 
 ### Strategy
 The term investment strategy refers to a set of principles designed to help an individual investor achieve their financial and investment goals. This plan is what guides an investor's decisions based on goals, risk tolerance, and future needs for capital. (Investopedia)
+
+***
+
+### Supporter/Supporting
+A person who provides specific support to enable the creation of a vault, usually in the way of project funding, is a Supporter. The act of doing so is called Supporting. 
+
+An NFT is issued to Supporters as a record of their Supporting activity.  
 
 ***
 
@@ -76,5 +91,10 @@ A smart contract that allows users to deposit tokens in order to perform a speci
 
 ***
 
+### Voter
+Community members who participate in governance in the Y-Foundry DAO.
+
+***
+
 ### YFD
- Shorthand for Y-Foundry DAO.
+Shorthand for Y-Foundry DAO.
