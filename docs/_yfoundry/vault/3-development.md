@@ -28,7 +28,7 @@ Once the proposal is approved, the initial payment (if any) is immediately claim
 ***
 
 ### Milestones
-Specific milestones are detailed in each on-chain proposal. The project vault proposer and Boosters, with support from the Y-Foundry DAO, are responsible to ensure that development is progressing as expected according to these milestones.
+Specific milestones are detailed in each on-chain proposal. The project vault proposer and Supporters, with support from the Y-Foundry DAO, are responsible to ensure that development is progressing as expected according to these milestones.
 
 Once the milestone date has been passed, Boosters can choose to hold a vote based on development progress.
 

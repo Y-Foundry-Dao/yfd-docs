@@ -23,12 +23,12 @@ Placeholder | Requirements to meet for a proposal
 
 Once the proposal is submitted on the Y-Foundry platform, the Y-Foundry DAO community votes to approve the vault. If approved by the community, the vault will then be available for boosting.
 
-Supporters can become Boosters of a project by depositing funds in the project vault now available on Y-Foundry. These funds are to be used exclusively for the development of the project. Once the vault launches, each Booster receives Booster NFTs representing their percentage of contribution to the development. See [NFT Generation](../5-vault-nft/).
+DAO members can become Supporters of a project by depositing funds in the project vault now available on Y-Foundry. These funds are to be used exclusively for the development of the project. Once the vault launches, each Supporter receives special NFTs representing their percentage of contribution to the development. See [NFT Generation](../5-vault-nft/).
 
 <br>
 
 {: .note}
-> Booster funds can only be disbursed to the pre-whitelisted builder(s) specified in the proposal and will be held in escrow contigent upon the fulfillment of development milestones.
+> Supporter funds can only be disbursed to the pre-whitelisted builder(s) specified in the proposal and will be held in escrow contigent upon the fulfillment of development milestones.
 
 <br>
 

@@ -38,6 +38,6 @@ When development has been finalized, the contract is uploaded to the blockchain 
 
 ***
 
-### 🖼️ NFT Generation for Proposer, Boosters, & YFD Treasury
+### 🖼️ NFT Generation for Proposer, Supporters, & YFD Treasury
 
 Novel NFTs are minted representing the contributions of those that fund the project. Each NFT gives the holder the right to claim any benefits allocated to supporters of the vault and provides potential governance rights.

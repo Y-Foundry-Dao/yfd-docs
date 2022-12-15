@@ -17,7 +17,7 @@ Potential use cases enabled by the Y-Foundry platform include, but aren't necess
 - On-chain, transparent funding process
     - Escrow capabilities for funds to be secured until ready for release
     - Timed funding disbursements through on-chain milestones
-    - Automatic funding clawback option initiated via Booster or community vote if milestones are not met
+    - Automatic funding clawback option initiated via Supporter or community vote if milestones are not met
 - Community vetting of builders through whitelisting process 
 - Job platform with on-chain guaranteed payment for completed work
 - Flexible options for claiming disbursements through the use of innovative NFTs
