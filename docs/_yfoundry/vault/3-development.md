@@ -30,16 +30,16 @@ Once the proposal is approved, the initial payment (if any) is immediately claim
 ### Milestones
 Specific milestones are detailed in each on-chain proposal. The project vault proposer and Supporters, with support from the Y-Foundry DAO, are responsible to ensure that development is progressing as expected according to these milestones.
 
-Once the milestone date has been passed, Boosters can choose to hold a vote based on development progress.
+Once the milestone date has been passed, Supporters can choose to hold a vote based on development progress.
 
 VOTE | RESULTS
 YES | Funds are released directly to builders for continued development.
 NO | No funds are released at this time. Another vote may be called when sufficient progress has been demonstrated.
 
-{At the completion of each milestone, Boosters can vote to release additional funds from the overall escrow. Builders will then be able to claim these funds for continued development.}
+{At the completion of each milestone, Supporters can vote to release additional funds from the overall escrow. Builders will then be able to claim these funds for continued development.}
 
 {: .note }
-> If a situation arises where there is a need to cancel the proposal entirely, a vote can be called by the Y-Foundry DAO. If the DAO votes to cancel the proposal, the Boosters will receive a return of the remaining funds proportional to the amount they originally deposited in the vault minus any disbursements for development that has already taken place.
+> If a situation arises where there is a need to cancel the proposal entirely, a vote can be called by the Y-Foundry DAO. If the DAO votes to cancel the proposal, the Supporters will receive a return of the remaining funds proportional to the amount they originally deposited in the vault minus any disbursements for development that has already taken place.
 
 ***
 
