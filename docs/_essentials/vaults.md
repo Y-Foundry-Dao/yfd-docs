@@ -9,6 +9,8 @@ last_modified_date: 2022-11-28
 Vaults
 ======
 
+***
+
 ### What are vaults
 
 In Decentralized Finance (DeFi), a vault is a pool of funds used to implement an investment strategy to benefit all users who have deposited assets in the vault. Through vaults, investors can access optimal on-chain strategies for farming, earning, investing, or more.
