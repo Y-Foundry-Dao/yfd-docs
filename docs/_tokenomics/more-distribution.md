@@ -1,6 +1,7 @@
 ---
 layout: default
 title: More Distribution
+nav_exclude: true
 nav_order: 110
 has_children: false
 

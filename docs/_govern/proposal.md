@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Proposals
+nav_exclude: true
 nav_order: 4
 has_children: true
 last_modified_date: 2022-10-27

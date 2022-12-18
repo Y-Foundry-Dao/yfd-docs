@@ -9,55 +9,39 @@ last_modified_date: 2022-11-28
 The Forge
 =========
 
-The Forge is the [Governance](/community/governance) part of the project. What this means is that users can take their $YFD tokens and deposit them in the Forge, thus acquiring fYFD points.
+***
+
+The Forge is the governance contract of Y-Foundry DAO. Users can deposit $YFD tokens into the Forge to acquire fYFD points.
 
 ![](/assets/images/figure/forge.png)
 
-The way fYFD points work is explained below:
+***
 
--   1.
+### How fYFD points work
 
-    A user has $YFD tokens.
+1. A user has $YFD tokens.
 
--   2.
+1. The user deposits tokens in the Forge with a target block number (as the date/time). That block marks the time the final portion of $YFD gets reclaimed. See [How Y-Foundry DAO Governance Works](../../govern/participate/) for more details. The user get issued fYFD points.
 
-    The tokens get deposited in the Forge, via Smart Contract call, with a target block number (as the date/time). That block marks the time the final fractional $YFD gets reclaimed. They get issued fYFD points.
+1. fYFD points can be used to:
 
--   3.
+    -   Submit governance proposals.
 
-    fYFD points can be used to:
+    -   Fund any proposal. Each fYFD point allows you to fund additional amounts to a proposal (eg. 1 point = $0.01 of funding capacity).
 
-    -   Submit governance [Proposals](/community/governance/proposals);
+1. Points decay each block.
 
-    -   Fund any proposal (eg. 1 point = $0.01 of funding capacity).
+1. The user can reclaim the decayed fYFD as $YFD.
 
--   4.
-
-    Points decay each block.
-
--   5.
-
-    The user can reclaim the decayed fYFD as $YFD.
+<br>
 
 {: .note }
 > Submitting a proposal locks fYFD points. These points stop decaying until the proposal process has been completed. This allows community to penalize bad actors (points can be seized).
 
-Users with enough fYFD points can create the following [Proposals](/community/governance/proposals):
+***
 
--   ​[Text proposals  ](/info/references/proposal-categories/basic)(a proposal with no enforceable on-chain action).
+Users with enough fYFD points can create [Proposals](../../govern/proposal/).
 
--   ​[Spend proposals](/community/governance/proposals/funding) to send funds from the treasury to a pre-whitelisted recipient address (service provider, community contributor, consultant, etc.).
+***
 
--   ​[Parameter proposals](/info/references/proposal-categories/parameter) to create, modify, or deprecate a governance parameter.
-
--   ​[Emergency proposals](/info/references/proposal-categories/emergency) to stop/veto an existing vault, governance, or spend proposal etc.
-
--   ​[Vault proposals](/info/references/proposal-categories/vault) to create a new vault, essentially a community-funded work order that can be fulfilled by a developer to receive escrowed funds.
-
--   ​[Vault deployment proposal](/info/references/proposal-categories/vault) to deploy the code for a completed vault (making the forge the owner of that contract).
-
--   ​[Whitelist proposals](/info/references/proposal-categories/whitelist) to whitelist developers and their wallet addresses to be able to work on vault proposals and receive payment.
-
-You can read more about the governance process by heading over to [Governance](/community/governance).
-
-You can read detailed specific of each proposal by heading over to [Proposal Categories](/info/references/proposal-categories)
+You can read more about the governance process by heading over to [Governance](../../govern/).

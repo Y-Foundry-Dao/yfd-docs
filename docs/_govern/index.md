@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Overview
+nav_exclude: true
 nav_order: 1
 has_children: false
 permalink: /govern
