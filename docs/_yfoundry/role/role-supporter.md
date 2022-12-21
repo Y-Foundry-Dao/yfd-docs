@@ -8,7 +8,7 @@ has_children: false
 
 # About The Supporter
 
-![Booster](/assets/images/learn/role/booster.png)
+![Supporter Bot](/assets/images/role/supporter-bot.png)
 
 ***
 
