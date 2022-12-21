@@ -10,7 +10,7 @@ has_children: false
 
 ***
 
-![Strategist](/assets/images/learn/role/strategist.png)
+![Proposer Bot](/assets/images/role/proposer-bot.png)
 
 ***
 

@@ -8,7 +8,7 @@ has_children: false
 
 # About The Builder
 
-![Developer](/assets/images/learn/role/developer.png)
+![Builder Bot](/assets/images/role/builder-bot.png)
 
 ***
 

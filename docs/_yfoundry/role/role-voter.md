@@ -10,10 +10,7 @@ has_children: false
 
 ***
 
-![Voter](/assets/images/learn/role/voter.png)
-<br />
-<br />
-![Voter3d](/assets/images/learn/role/voter-3d.png)
+![Voter Bot](/assets/images/role/voter-bot.png)
 
 ***
 
