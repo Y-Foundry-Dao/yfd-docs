@@ -11,7 +11,7 @@ last_modified_date: 2022-10-25
 
 ***
 
-A proposer with a vault idea connects to the Y-Foundry DAO community to receive guidance on developing the proposal. A proposal is a detailed plan for the vault. It clearly includes the what, how, who, and when information needed to launch the project successfully.
+A [Proposer](../../yfoundry/role/role-strategist/) with a vault idea connects to the Y-Foundry DAO community to receive guidance on developing the proposal. A proposal should typically include information on the why, what, how, who, and when of the vault idea and a detailed plan to launch.
 
 <br>
 
@@ -20,7 +20,7 @@ A proposer with a vault idea connects to the Y-Foundry DAO community to receive 
 
 <br>
 
-The proposer gets connected with potential supporters of the vault including whitelisted developers ready to build the project.
+The Proposer is then connected with potential [Supporters](../../yfoundry/role/role-supporter/) of the vault and whitelisted [Builders](../../_yfoundry/role/role-developer.md) who are ready to help with the project.
 
 <br>
 

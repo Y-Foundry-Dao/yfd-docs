@@ -9,7 +9,7 @@ last_modified_date: 2022-12-01
 Seeding the Cosmos
 =======================
 
-Y-Foundry DAO is a community born out of frustration and contempt with opague and exploitative crypto projects. These projects are often run by cult-like personalities who extracts value from uninformed participants to enrich their own pockets, while avoiding transparency and accountability for their actions and decisions.
+Y-Foundry DAO is a community born out of frustration and contempt with opaque and exploitative crypto projects. These projects are often run by personalities who abuse their cult-like following to extract value from uninformed participants, while avoiding transparency and accountability for their actions and decisions.
 
 The Y-Foundry platform aims to solve this problem by providing an open-source funding and governance capability that enables and promotes building in an accountable, auditable, transparent and trustless manner.
 
@@ -27,4 +27,4 @@ Potential use cases enabled by the Y-Foundry platform include, but aren't necess
 And more!
 
 
-Y-Foundry forges trustless tools and secure processes enabling decentralized communities to build the future in the Cosmos.
+Built on Cosmos technology, Y-Foundry forges the much-needed trustless tools and secure processes to allow decentralized communities to truly florish. 
