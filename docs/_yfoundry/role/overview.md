@@ -23,5 +23,5 @@ Roles are not mutually exclusive. A single individual can have multiple roles as
 ## Y-Foundry Bots
 
 |:-------|:--------|
-| ![Proposer Bot](../../../assets/images/role/proposer-bot.png) | ![Builder Bot](../../../assets/images/role/builder-bot.png) |
-| ![Voter Bot](../../../assets/images/role/voter-bot.png) | ![Supporter Bot](../../../assets/images/role/supporter-bot.png) |
+| ![Proposer Bot](../../../assets/images/role/proposer/proposer-bot-512.png) | ![Builder Bot](../../../assets/images/role/builder/builder-bot-512.png) |
+| ![Voter Bot](../../../assets/images/role/voter/voter-bot-512.png) | ![Supporter Bot](../../../assets/images/role/supporter/supporter-bot-512.png) |
