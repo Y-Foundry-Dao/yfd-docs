@@ -2,7 +2,8 @@
 layout: default
 title: Vault Proposal
 parent: Pisco-1
-nav_order: 4
+nav_order: 40
+last_modified_date: 2022-12-28
 ---
 WIP
 {: .label .label-blue }
@@ -10,7 +11,7 @@ WIP
 
 # YFD CW20 Token Contract
 
-### Submit a Vault Funding Proposal
+### Submit a Vault Creation Proposal
 **Message sent to CW20 Token Contract that being used for the deposit**
 
 ```json
@@ -73,19 +74,3 @@ and has been determined by by the community funding (45,000) divided by the
     }
 }
 ```
-
-### JSon for Vault Funding
-
-To fund a vault proposal execute a `send` message to the `funding_denomination` CW-20 contract address
-```json
-{
-  "send": {
-    "contract": "[proposal_address]",
-    "amount": "[amount]",
-    "msg": "eyJzdGFrZSI6e319"
-  }
-}
-```
-### JSon for Vault Funding Decoded
-`eyJzdGFrZSI6e319` is the base64 encoded message of:
-`{"stake":{}}`

@@ -2,8 +2,8 @@
 layout: default
 title: Contract Addresses
 parent: Pisco-1
-nav_order: 1
-last_modified_date: 2022-11-30
+nav_order: 10
+last_modified_date: 2022-12-14
 ---
 
 WIP
