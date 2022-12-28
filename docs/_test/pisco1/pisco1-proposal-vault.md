@@ -9,8 +9,6 @@ WIP
 
 
 # YFD CW20 Token Contract
-https://station.terra.money/contract/execute/terra1ss9zz4873vk4dd8dvua0vm83m6s8k7ctwp9efac0arytn6jthfgsy2d4a9
-
 
 ### Submit a Vault Funding Proposal
 **Message sent to CW20 Token Contract that being used for the deposit**
