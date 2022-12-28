@@ -249,7 +249,10 @@ address_whitelist
             "image_link": "www.example.com",
             "roles": [
               "developer",
-              "booster"
+              "booster",
+              "strategist",
+              "proposer",
+              "payee"
             ],
             "links": {
               "github": "https://github.com/example-user-account",
