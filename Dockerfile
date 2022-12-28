@@ -19,7 +19,7 @@ RUN apk add --no-cache build-base gcc cmake git
 COPY Gemfile* ./
 
 # Update the Ruby bundler and install Jekyll
-RUN gem update bundler && gem install bundler jekyll
+#RUN gem update bundler && gem install bundler jekyll
 
 # if you don't 'COPY Gemfile* ./' above, then run bundle init
 # RUN bundle init
