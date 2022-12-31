@@ -11,17 +11,19 @@ last_modified_date: 2022-12-01
 Y-Foundry
 =========
 
-Introducing Y-Foundry!
+***
+
+## Introducing Y-Foundry!
 
 Y-Foundry is a platform connecting the community with creators to propose, vote, and build their ideas.
 
-**Developed by the community.**
-
-**Owned by the community.**
+**Developed by the community --- Owned by the community**
 
 Bringing an idea to market requires massive amounts of effort to coordinate developers, creators, and capital. Y-Foundry seeks to provide creators with the means to connect with the community and launch their projects. Anyone with a great idea can propose it to the Y-Foundry DAO, receive support to expand on their ideas, and find additional resources within the community. Y-Foundry enables creators and developers to connect, ideate, fund, and build the community-owned crypto projects of tomorrow.
 
-### What can I do on Y-Foundry?
+***
+
+## What can I do on Y-Foundry?
 
 If you have an idea, the Y-Foundry platform and community can help make it a reality.
 
@@ -34,6 +36,10 @@ If you have an idea, the Y-Foundry platform and community can help make it a rea
     - Starting an off-chain business
 - Fund ideas and share in the success of the project. Discover and complete interesting tasks to earn reputation points.
 - Work on projects funded and supported by the community with payment guaranteed by smart contracts.
+
+***
+
+## Where can I find the Y-Foundry DAO?
 
 The Y-Foundry DAO community is here to answer any questions you may have and support your journey from idea to reality. Join the Y-Foundry DAO and build the community-supported projects of the future!
 
