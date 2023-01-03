@@ -18,7 +18,7 @@ This section provides a basic overview of how the Y-Foundry platform works. For 
 
 The Y-Foundry platform is a decentralized marketplace for ideas, powered by the Y-Foundry DAO (Decentralized Autonomous Organization). It enables Proposers, Builders, and Supporters to collaborate and bring new projects to life in a transparent, accountable, and secure way.
 
-[placeholder for image]
+<!-- [placeholder for image] -->
 
 ***
 
@@ -27,15 +27,7 @@ The Y-Foundry DAO (YFD) is the decentralized, community-driven organization that
 
 <br>
 
-### The Forge
-
-The Forge is the governance contract of the Y-Foundry DAO. Individuals can deposit their YFD tokens in the Forge to acquire governance power through fYFD [link here], which allows them to perform different actions on the platform, participate in the voting process, and shape the overall direction of Y-Foundry.
-
-[placeholder links for fYFD forge locking process - see voting]
-
-<br>
-
-### Roles
+### Roles within Y-Foundry DAO
 
 The Y-Foundry DAO supports a variety of roles for users to participate in the ecosystem. 
 
@@ -50,32 +42,29 @@ The Y-Foundry DAO supports a variety of roles for users to participate in the ec
 
 <br>
 
-### Crucibles
+### The Forge
 
-Crucibles are the working groups of the Y-Foundry DAO. They consist of small teams of specialists each with a particular focus and dedicated to the long-term health of the platform. They are the foundational pillars of the YFD protocol. The crucibles approach the DAO with initiatives to improve the Y-Foundry platform. If the community agrees then they will get the necessary funding to accomplish the task. See governance proposals for more details. (link here)
+The Forge is the governance contract of the Y-Foundry DAO. Individuals can deposit their YFD tokens in the Forge to acquire governance power through fYFD [link here], which allows them to perform different actions on the platform, participate in the voting process, and shape the overall direction of Y-Foundry.
 
-Not only do they provide thought leadership for their respective areas of focus, they can also help determine the direction of the protocol through influencing new vault/project proposals and critical governance items.
-
-<br>
-
-### Caretaker Council
-
-The Caretaker Council is a temporary group of experienced and respected members of the YFD community, with expertise in the Cosmos ecosystem, crypto governance, or other related fields. Their role is to provide guidance and direction to the protocol during its early stages, advising the DAO on key issues and helping to prevent governance attacks. 
-
-As more members of the DAO become involved in governance, the Council's influence will naturally diminish over time due to the nature of the fYFD voting power (link here). The Council's main purpose is to help ensure a smooth launch and successful scaling of YFD. Once this has been achieved, the Council will no longer be needed.
+<!-- [placeholder links for fYFD forge locking process - see voting] -->
 
 <br>
 
-### Treasury Multisig
+### DAO Groups
 
-The Treasury Multisig (link here) is a group of key individuals within the Cosmos ecosystem who have been entrusted with the responsibility of securing a portion of the treasury until the DAO determines it is ready to be self-managed by the Forge (link here). 
+There are additional groups within the Y-Foundry DAO that play important roles in the operation and success of the platform.
 
-When it has been determined that the Forge is ready to manage the treasury independently, the Y-Foundry DAO will create a governance proposal (link here) to transfer all funds from the Treasury Multisig to the Forge. This proposal will be carried out in accordance with the governance processes of the DAO, ensuring that the decision is made democratically and transparently. Once the proposal has been enacted and the funds have been transferred, the Forge will be fully responsible for the management of the treasury.
+|:-------|:--------|
+| Crucibles | These are the working groups of the DAO. |
+| Caretaker Council | A dedicated advisory board for early DAO operations and security. |
+| Treasury Multisig | Key individuals securing a portion of the DAO treasury at launch.|
 
 ***
 
 ## Proposals
-The proposal process is a key part of the Y-Foundry platform, and all roles have a contribution to make. Proposers can submit ideas for vaults or initiatives to the Foundry, and Supporters can provide funding to help bring these ideas to life. Builders can work on funded projects and contribute to the development of the platform. Finally, Voters can use their governance power to vote on proposals and help determine the direction of the projects.
+The proposal process is a key part of the Y-Foundry platform, and all roles have a contribution to make. Proposers can submit ideas for vaults or initiatives to Y-Foundry, and Supporters can provide funding to help bring these ideas to life. Builders can work on funded projects and contribute to the development of the platform. Finally, Voters can use their governance power to vote on proposals and help determine the direction of the projects.
+
+<!-- For more on proposals (link here). -->
 
 ### Proposal Types
 
@@ -84,10 +73,15 @@ The proposal process is a key part of the Y-Foundry platform, and all roles have
 | Vault | Proposers and Supporters can create and launch automated DeFi investment strategies through pooling funds and using the built-in governance mechanisms of the vault. This allows for the management of development and distribution of profits to all Supporters. |
 | Governance | Y-Foundry DAO can perform various governance actions, such as Builder whitelisting, treasury spending, emergency proposals, and token whitelisting. These proposals allow Voters to make important decisions that shape the direction and operation of the platform. |
 
+<!-- For more on proposal types (link here). -->
 
-***
+### Marketplace
 
+The Marketplace is where users can find all the launched vaults and initiatives from Y-Foundry. Here, users can browse for projects that align with their interests and participate in them as they see fit. To access the Marketplace, simply visit the Y-Foundry dApp <!-- Link -->. Here, you'll find a list of all the projects that have been developed and approved by the DAO. These projects represent the best and brightest ideas from the Y-Foundry community, and offer users the opportunity to support projects created by the community for the community.
 
+### Y-Foundry dApp
 
-***
+The Y-Foundry front-end dApp integrates all of YFD’s products with a sleek and intuitive design. This allows for easy access to all of your $YFD assets and manage them in one place.
+
+<!-- Link to the dApp here. -->
 
