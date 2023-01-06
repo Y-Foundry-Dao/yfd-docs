@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Creating Vaults
-nav_order: 5
+nav_order: 10
 has_children: true
 last_modified_date: 2022-12-01
 ---

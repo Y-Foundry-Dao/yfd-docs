@@ -49,6 +49,11 @@ The governance value of a user’s locked $YFD tokens. fYFD represents $YFD toke
 
 ***
 
+### Initiative
+A Proposal type on the Y-Foundry platform. A Proposer can get support for a wide variety of projects through an Initiative Proposal.
+
+***
+
 ### Plurality
 In voting, when an outcome receives more votes than any other but may not necessarily achieve an absolute majority.
 
@@ -70,9 +75,9 @@ The term investment strategy refers to a set of principles designed to help an i
 ***
 
 ### Supporter/Supporting
-A person who provides specific support to enable the creation of a vault, usually in the way of project funding, is a Supporter. The act of doing so is called Supporting. 
+A person who provides specific support to enable the creation of a vault or other proposed project, usually in the way of project funding, is a Supporter. The act of doing so is called Supporting. 
 
-An NFT is issued to Supporters as a record of their Supporting activity.  
+An NFT is issued to Supporters as a record of their Support.  
 
 ***
 
@@ -87,7 +92,7 @@ A smart contract that allows users to deposit tokens in order to perform a speci
  
  > _Second generation_ vaults require a human operator to act on market contingencies
 
- > _Third generation_ vaults have intelligent behavior and decision-making in place of a human operator.
+ > _Third generation_ vaults have intelligent behavior and decision-making in place of a human operator
 
 ***
 
