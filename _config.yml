@@ -73,7 +73,7 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 # Define Jekyll collections
 collections_dir: docs
 collections:
-  onboard:
+  guides:
     permalink: "/:collection/:path/"
     output: true
   yfoundry:
@@ -106,8 +106,8 @@ collections:
   
 just_the_docs:
   collections:
-    onboard:
-      name: On-boarding
+    guides:
+      name: Guides
       nav_exclude: false
       nav_fold: true
       search_exclude: false

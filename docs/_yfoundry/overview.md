@@ -16,7 +16,7 @@ This section provides a basic overview of how the Y-Foundry platform works. For 
 
 ## Y-Foundry Platform
 
-The Y-Foundry platform is a decentralized marketplace for ideas, powered by the Y-Foundry DAO (Decentralized Autonomous Organization). It enables Proposers, Builders, and Supporters to collaborate and bring new projects to life in a transparent, accountable, and secure way.
+The Y-Foundry platform is a decentralized marketplace for ideas, powered by the Y-Foundry DAO (Decentralized Autonomous Organization). It enables Proposers, Builders, and Supporters to collaborate and launch projects in a transparent, accountable, and secure way.
 
 <!-- [placeholder for image] -->
 
@@ -75,13 +75,17 @@ The proposal process is a key part of the Y-Foundry platform, and all roles have
 
 <!-- For more on proposal types (link here). -->
 
-### Marketplace
+***
+
+## Marketplace
 
 The Marketplace is where users can find all the launched vaults and initiatives from Y-Foundry. Here, users can browse for projects that align with their interests and participate in them as they see fit. To access the Marketplace, simply visit the Y-Foundry dApp <!-- Link -->. Here, you'll find a list of all the projects that have been developed and approved by the DAO. These projects represent the best and brightest ideas from the Y-Foundry community, and offer users the opportunity to support projects created by the community for the community.
 
-### Y-Foundry dApp
+***
 
-The Y-Foundry front-end dApp integrates all of YFD’s products with a sleek and intuitive design. This allows for easy access to all of your $YFD assets and manage them in one place.
+## Y-Foundry dApp
+
+The Y-Foundry front-end dApp integrates all of YFD’s products with a sleek and intuitive design. This allows for easy access to all of your $YFD assets and the ability to manage them in one place.
 
 <!-- Link to the dApp here. -->
 
