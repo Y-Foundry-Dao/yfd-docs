@@ -9,15 +9,15 @@ nav_order: 2
 
 # **Forge Contract Messages**
 
-This page describes our possible query and execute messages on the Forge smart contract. 
+This page describes possible query and execute messages utilizing the Forge smart contract. 
 
 ## Contract Address
 
 | Name         | Contract Address                                                  |
 |:-------------|:------------------------------------------------------------------|
-| Forge        | terra1utkv5z538t32t0a2dkut2qncc4xs29jldjw2ez5s9tuzjsy59d0sm5p2mz  |
+| Forge        | _see deployment section_  |
 
-You can go to the [contract tab](https://station.terra.money/contract) on the terra station web app to manually run query and execute messages.
+From the [contract tab](https://station.terra.money/contract) on the terra station web app to manually run query and execute messages.
 
 Searching for the contract shows useful information such as the `Code ID` `Creator` `Admin` and the `InitMsg` that was used to instantiate the contract. In the case of this Forge contract the `InitMsg` is 
 
