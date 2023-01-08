@@ -6,6 +6,7 @@ grand_parent: dApp Frontend
 has_children: false
 has_toc: false
 nav_order: 5
+last_modified_date: 2023-01-07
 ---
 
 WIP

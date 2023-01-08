@@ -1,15 +1,15 @@
 ---
 layout: default
-title: 🪝 Hooks
+title: ⛅ Functions
 parent: dApp Frontend
-has_children: true
 has_toc: true
+has_children: true
 last_modified_date: 2023-01-07
 ---
 
-# Hooks
+# Functions
 
-Y-Foundry React Custom Hooks
+Y-Foundry Functions
 
 <details markdown="block">
   <summary>

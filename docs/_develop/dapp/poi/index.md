@@ -1,15 +1,13 @@
 ---
 layout: default
-title: 🪝 Hooks
+title: 📍 Points of Interest
 parent: dApp Frontend
 has_children: true
 has_toc: true
 last_modified_date: 2023-01-07
 ---
 
-# Hooks
-
-Y-Foundry React Custom Hooks
+# Points of Interest
 
 <details markdown="block">
   <summary>
