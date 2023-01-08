@@ -3,7 +3,8 @@ layout: default
 title: dApp Frontend
 nav_order: 5
 has_children: true
-has_toc: false
+has_toc: true
+last_modified_date: 2023-01-07
 ---
 
 WIP

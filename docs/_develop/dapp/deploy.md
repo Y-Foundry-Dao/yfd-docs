@@ -4,6 +4,7 @@ title: How to Deploy
 parent: dApp Frontend
 nav_order: 1
 has_children: false
+last_modified_date: 2023-01-07
 ---
 
 WIP
