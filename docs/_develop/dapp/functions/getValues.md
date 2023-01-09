@@ -1,6 +1,6 @@
 ---
 layout: default
-title: getValue
+title: getValues
 parent: ⛅ Functions
 grand_parent: dApp Frontend
 has_children: false
@@ -11,9 +11,9 @@ last_modified_date: 2023-01-07
 
 WIP
 {: .label .label-blue}
-# getValue
+# getValues
 
-`getValue` contains functions that return a stringified value or array from dApp's configuration files and parameters.
+`getValues` contains functions that return a stringified value or array from dApp's configuration files and parameters.
 
 ## Functions
 
@@ -38,7 +38,7 @@ WIP
 
 ## Import
 
-`import getChainDeploy from '@utilities/getValue';`
+`import getChainDeploy from '@utilities/getValues';`
 
 ## Parameters
 
