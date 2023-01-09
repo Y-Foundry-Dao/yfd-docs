@@ -7,4 +7,11 @@ has_children: true
 
 # State
 
-Sub-section detailing our React state. We use both component state and recoil state.
+Files containing state for the dApp are located in the `src/recoil` folder.
+Y-Foundry uses the [Recoil](https://recoiljs.org/) state management library.
+
+## Import
+
+```tsx
+import { useRecoilState, useRecoilValue, useRecoilValueLoadable } from 'recoil';
+```
