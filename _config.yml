@@ -106,13 +106,13 @@ collections:
   
 just_the_docs:
   collections:
-    guides:
-      name: Guides
+    yfoundry:
+      name: Y-Foundry DAO
       nav_exclude: false
       nav_fold: true
       search_exclude: false
-    yfoundry:
-      name: Y-Foundry DAO
+    guides:
+      name: Guides
       nav_exclude: false
       nav_fold: true
       search_exclude: false
