@@ -23,7 +23,7 @@ The Caretaker Council is a temporary group of experienced and respected members 
 
 As more members of the DAO become involved in governance, the Council's influence will naturally diminish over time due to the nature of the fYFD voting power (link here). The Council's main purpose is to help ensure a smooth launch and successful scaling of YFD. Once this has been achieved, the Council will no longer be needed.
 
-<!-- Include details for the Caretaker Council here. -->
+<a href="/assets/pdfs/yfd-caretaker-multisig.pdf" target="_blank" rel="noopener noreferrer">Caretaker Council Multisig</a>
 
 <br>
 
