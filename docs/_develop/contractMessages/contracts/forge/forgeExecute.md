@@ -506,7 +506,8 @@ finalize_proposal
 
 ## Claim YFD
 {% capture description %}
-Claim YFD previously deposited into the Forge using the index number from balance_detail query. 
+Claim YFD previously deposited into the Forge using the index number from balance_detail query.
+`deposit_timestamp returned` uses [env.block.time](https://docs.rs/cosmwasm-std/latest/cosmwasm_std/struct.BlockInfo.html) which is UNIX epoch represented in nanoseconds.  Divide by 1,000,000 to receive a traditional UNIX timestamp.  Timestamp data is generated on line 1083 of Forge `contract.rs`.
 {% endcapture %}
 {% capture key %}
 claim
