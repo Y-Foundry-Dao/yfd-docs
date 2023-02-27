@@ -10,7 +10,7 @@ Overview
 
 ***
 
-This section provides a basic overview of how the Y-Foundry platform works. For a more in-depth look at the technical details and features of the platform, visit the "?" section. To learn how to use Y-Foundry, visit the "?" section.
+This section provides a basic overview of how the Y-Foundry platform works. <!-- For a more in-depth look at the technical details and features of the platform, visit the "?" section. To learn how to use Y-Foundry, visit the "?" section.-->
 
 ***
 
@@ -44,7 +44,7 @@ The Y-Foundry DAO supports a variety of roles for users to participate in the ec
 
 ### The Forge
 
-The Forge is the governance contract of the Y-Foundry DAO. Individuals can deposit their YFD tokens in the Forge to acquire governance power through fYFD [link here], which allows them to perform different actions on the platform, participate in the voting process, and shape the overall direction of Y-Foundry.
+The Forge is the governance contract of the Y-Foundry DAO. Individuals can deposit their YFD tokens in the Forge to acquire governance power through fYFD <!--[link here]--> unlocking the ability for them to perform different actions on the platform, participate in the voting process, and shape the overall direction of Y-Foundry.
 
 <!-- [placeholder links for fYFD forge locking process - see voting] -->
 
@@ -57,7 +57,7 @@ There are additional groups within the Y-Foundry DAO that play important roles i
 |:-------|:--------|
 | Crucibles | These are the working groups of the DAO. |
 | Caretaker Council | A dedicated advisory board for early DAO operations and security. |
-| Treasury Multisig | Key individuals securing a portion of the DAO treasury at launch.|
+| Treasury Multisig | Key individuals within the Cosmos ecosystem securing a portion of the DAO treasury at launch.|
 
 ***
 
@@ -79,7 +79,7 @@ The proposal process is a key part of the Y-Foundry platform, and all roles have
 
 ## Marketplace
 
-The Marketplace is where users can find all the launched vaults and initiatives from Y-Foundry. Here, users can browse for projects that align with their interests and participate in them as they see fit. To access the Marketplace, simply visit the Y-Foundry dApp <!-- Link -->. Here, you'll find a list of all the projects that have been developed and approved by the DAO. These projects represent the best and brightest ideas from the Y-Foundry community, and offer users the opportunity to support projects created by the community for the community.
+The Marketplace is where users can find all the available vaults and initiatives from Y-Foundry. Here, users can browse for projects that align with their interests and participate in them as they see fit. To access the Marketplace, simply visit the Y-Foundry dApp <!-- Placeholder link -->. Here, you'll find a list of all the projects that have been developed and approved by the DAO. These projects represent the best and brightest ideas from the Y-Foundry community, and offer users the opportunity to support projects created by the community for the community.
 
 ***
 
