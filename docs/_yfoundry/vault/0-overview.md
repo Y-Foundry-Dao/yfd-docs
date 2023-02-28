@@ -6,7 +6,7 @@ has_children: true
 last_modified_date: 2022-12-01
 ---
 
-# 🏦 Vaults
+# 🏦 Vault Proposal
 
 ***
 
@@ -16,7 +16,9 @@ In the world of Decentralized Finance (DeFi), a vault is a fund management tool 
 
 ![YFD Vaults](/assets/images/figure/yfd-vaults.png)
 
-Each Y-Foundry vault has its own unique functions, including options for depositing, withdrawing, and disbursing fees, as well as an emergency stop feature for added security. Users can find and participate in vaults through the Y-Foundry marketplace, which features a variety of approved and launched projects.
+## Y-Foundry Vaults
+
+Y-Foundry enables individuals within the community to propose their vault strategy to be built through the platform. Each Y-Foundry vault has its own unique functions, including options for depositing, withdrawing, and disbursing fees, as well as an emergency stop feature for added security. Once launched, users can find and participate in vaults through the Y-Foundry marketplace, which features a variety of approved and launched projects.
 
 ***
 

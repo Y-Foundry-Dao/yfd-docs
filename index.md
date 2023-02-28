@@ -39,6 +39,19 @@ If you have an idea, the Y-Foundry platform and community can help make it a rea
 
 ***
 
+## Can existing projects use the Y-Foundry platform?
+
+Yes! Y-Foundry provides sophisticated on-chain tools for community-driven building, funding, and governance. 
+
+These tools can be leveraged by your existing project to:
+- Find product market fit by allowing the community to fund the projects and features they want to see in your roadmap
+- Enable rich governance options to provide your community with a voice in determining the direction of your project
+- Tap into a talented pool of experienced developers and community contributors whitelisted by the Y-Foundry DAO 
+
+Whether you're a seasoned project or just starting out, our platform offers the tools and resources you need to help your project succeed.
+
+***
+
 ## Where can I find the Y-Foundry DAO?
 
 The Y-Foundry DAO community is here to answer any questions you may have and support your journey from idea to reality. Join the Y-Foundry DAO and build the community-supported projects of the future!
