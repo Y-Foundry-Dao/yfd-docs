@@ -470,6 +470,16 @@ all_governance_parameter
 
 ## Governance Parameter:
 
+### Types
+
+| Type | Description |
+| --- | --- |
+| `BlockHeight` | Block height |
+| `Decimal` | Decimal |
+| `Integer` | Integer |
+| | `...incomplete list` |
+
+
 {% capture description %}
 Gets information about a governance paramter in the list
 {% endcapture %}

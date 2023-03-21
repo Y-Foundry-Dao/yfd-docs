@@ -15,4 +15,4 @@ WIP
 
 | Name        | Network          | Version | Status | Deployment Date |
 |:-------------|:------------------|:----|:----|:------|
-| Terra 2           | `phoenix-1` | v 1.0.0-mvp | `in-audit` | December 2022  |
+| Terra 2           | `phoenix-1` | v 1.0.0-mvp | `in testing` | March 2023  |
