@@ -19,7 +19,7 @@ Use [CosmWasm Tools](https://cosmwasm.tools/)
 | Name      | Code ID | Contract Address |
 |:----------|:--------|:------------------------------------------------------------------|
 | $YFDJ CW20 |  995   | juno1fpql6u3l3q5eakz3ansam3kdzmc9ew5ctq75mwdmwf4qh84svevqamlket  |
-| [Forge](https://finder.terra.money/testnet/tx/5A19601786BC095E54FB76451D442AAD4B44D6055E798CC9F47D637165CF47C2)     | 5935    | juno103rwhg7qyaj4m5dzhl92mm74h97x68swraxcsp9aehex38v0zwjqhtdl4q  |
+| [Forge](https://testnet.mintscan.io/)     | 1001    | juno103rwhg7qyaj4m5dzhl92mm74h97x68swraxcsp9aehex38v0zwjqhtdl4q  |
 
 | Name                     |    Type         | Code_Id | Location ( .wasm ) |
 |:-------------------------|:----------------|:--------|:-----------------------------------------------|
