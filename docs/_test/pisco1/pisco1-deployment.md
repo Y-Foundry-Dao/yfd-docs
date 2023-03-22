@@ -97,10 +97,10 @@ reference: `https://github.com/CosmWasm/cw-plus/blob/main/packages/cw20/README.m
   "max_lock_duration": "10512000",
   "max_lock_duration_multiplier": "2.5",
   "cw_20_yfd_addr": "terra1293l9rgqk5vxndaeqmengssg3pdch57qpepgslh7p2sg3lqd87rss8du4s",
-  "proposal_contract_code_id": 5928,
-  "vote_contract_id": 5929,
-  "nft_contract_code_id": 5930,
-  "vault_liquidate_contract_code_id":  5932,
+  "proposal_contract_code_id": 8162,
+  "vote_contract_id": 8163,
+  "nft_contract_code_id": 8164,
+  "vault_liquidate_contract_code_id":  8166,
   "treasury_addr": "terra1upleyfx24jehpgfy9d79d9scps20ffuf6vy706",
   "address_whitelist": [ 
     {
