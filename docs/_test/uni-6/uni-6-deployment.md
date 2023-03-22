@@ -8,9 +8,6 @@ has_toc: false
 last_modified_date: 2023-03-21
 ---
 
-WIP
-{: .label .label-blue}
-
 # 🧪 Deploying Y-Foundry (from Linux/OSX)
 
 ## Clone `yfd-integration` repo
