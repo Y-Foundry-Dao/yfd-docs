@@ -6,9 +6,6 @@ nav_order: 1
 last_modified_date: 2023-03-21
 ---
 
-WIP
-{: .label .label-blue}
-
 # Contract Addresses
 
 Use [CosmWasm Tools](https://cosmwasm.tools/)

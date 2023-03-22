@@ -6,9 +6,6 @@ nav_order: 1
 last_modified_date: 2023-03-21
 ---
 
-WIP
-{: .label .label-blue }
-
 ## Instatiated Governance Parameters
 `https://github.com/Y-Foundry-Dao/yfd-governance/contracts/forge/src/governance_parameters.rs`
 
