@@ -10,7 +10,15 @@ has_children: false
 
 ## New Release - Automated
 
-1. Checkout the Github Repository for `yfoundry-frontend`
+1. Clone the Github Repository for `yfoundry-frontend`
+
+1. Checkout `main`
+
+1. Create a branch to make changes `git branch my_branch`
+
+1. Make changes and create the PR/merge changes into `main`
+
+1. `git switch main`
 
 1. Run `yfd-new-release.sh [version number]` from the `/yfoundry-frontend` path
     - example: `yfd-new-release.sh 1.6.3`
