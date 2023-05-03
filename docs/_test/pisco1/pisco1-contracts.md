@@ -18,6 +18,13 @@ WIP
 | $YFD CW20 |  5926   | terra1293l9rgqk5vxndaeqmengssg3pdch57qpepgslh7p2sg3lqd87rss8du4s  |
 | [Forge](https://finder.terra.money/testnet/tx/5A19601786BC095E54FB76451D442AAD4B44D6055E798CC9F47D637165CF47C2)     | 8186    | terra1s5hg4kusnnp5q8r8l0das4tftd50xcve4e2l95eqjy3fgducekfsw6yder  |
 
+## CW20-ICS20 Bridge
+| Name      | Code ID | Contract Address |
+|:----------|:--------|:------------------------------------------------------------------|
+| Terra | 8741 | terra1dheglk2ejjwjr4j859fna5nnngs8sa7e3083dvpusjsez7jq54vqmre4z2 |
+| | | wasm.terra1dheglk2ejjwjr4j859fna5nnngs8sa7e3083dvpusjsez7jq54vqmre4z2 |
+| Terra -> Juno | | channel-277 -> transfer channel-223 |
+
 | Name                     |    Type         | Code_Id | Location ( .wasm ) |
 |:-------------------------|:----------------|:--------|:-----------------------------------------------|
 | [$YFD CW20](https://finder.terra.money/testnet/tx/F34CF3109D69B0037BA99260E0B853AC06BD14C4461FA90E030F4411E7ADFDD3)              | CW20 Token      |   5926  | yfd-token/artifacts/cw20_base                  |
