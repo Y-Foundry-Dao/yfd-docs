@@ -19,6 +19,7 @@ WIP
 | [Forge](https://finder.terra.money/testnet/tx/5A19601786BC095E54FB76451D442AAD4B44D6055E798CC9F47D637165CF47C2)     | 8186    | terra1s5hg4kusnnp5q8r8l0das4tftd50xcve4e2l95eqjy3fgducekfsw6yder  |
 
 ## CW20-ICS20 Bridge
+
 | Name      | Code ID | Contract Address |
 |:----------|:--------|:------------------------------------------------------------------|
 | Terra | 8741 | terra1dheglk2ejjwjr4j859fna5nnngs8sa7e3083dvpusjsez7jq54vqmre4z2 |
