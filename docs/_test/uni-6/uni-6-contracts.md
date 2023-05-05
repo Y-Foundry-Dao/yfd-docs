@@ -19,6 +19,7 @@ Use [CosmWasm Tools](https://cosmwasm.tools/)
 | [Forge](https://testnet.mintscan.io/)     | 1001    | juno103rwhg7qyaj4m5dzhl92mm74h97x68swraxcsp9aehex38v0zwjqhtdl4q  |
 
 ## CW20-ICS20 Bridge
+
 | Name      | Code ID | Contract Address |
 |:----------|:--------|:------------------------------------------------------------------|
 | Juno uni-6 | 1726 | juno1kmnquwq035pfl2f6298afvzp0ruq4v3ep460hjexjy342fwrt80s556vcq |
