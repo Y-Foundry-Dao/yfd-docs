@@ -3,11 +3,8 @@ layout: default
 title: 🌕 Terra 2 (phoenix-1)
 parent: Deployments
 nav_order: 5
-has_children: false
+has_children: true
 ---
-
-WIP
-{: .label .label-blue}
 
 # Terra 2 Mainnet: Phoenix-1
 
