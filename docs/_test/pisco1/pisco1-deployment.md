@@ -7,9 +7,6 @@ has_children: false
 has_toc: false
 ---
 
-WIP
-{: .label .label-blue}
-
 # 🧪 Deploying Y-Foundry (from Linux/OSX)
 
 ## Clone `yfd-integration` repo
