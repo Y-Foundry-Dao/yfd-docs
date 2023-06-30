@@ -32,15 +32,15 @@ callouts:
 # Aux links for the upper right navigation
 aux_links:
   "Medium":
-    - "//medium.com/@yfoundry/"
+    - "//blog.yfoundry.io/"
   "Discord":
-    - "//discord.gg/yfd"
+    - "//discord.yfoundry.io"
   "Twitter": 
-    - "//twitter.com/YFoundryDAO"
+    - "//twitter.yfoundry.io"
   "Telegram":
-    - "//t.me/yfoundrydao"
+    - "//telegram.yfoundry.io"
   "Github":
-    - "//github.com/Y-Foundry-DAO/"
+    - "//source.yfoundry.io"
   "Website":
     - "//yfoundry.io/"
 
