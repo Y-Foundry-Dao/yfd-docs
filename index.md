@@ -57,5 +57,5 @@ Whether you're a seasoned project or just starting out, our platform offers the 
 The Y-Foundry DAO community is here to answer any questions you may have and support your journey from idea to reality. Join the Y-Foundry DAO and build the community-supported projects of the future!
 
 Find us here:
-- Discord [https://discord.gg/yfd](https://discord.gg/yfd)
-- Twitter [https://twitter.com/YFoundryDAO](https://twitter.com/YFoundryDAO)
+- Discord [https://discord.yfoundry.io](https://discord.yfoundry.io)
+- Twitter [https://twitter.yfoundry.io](https://twitter.yfoundry.io)
